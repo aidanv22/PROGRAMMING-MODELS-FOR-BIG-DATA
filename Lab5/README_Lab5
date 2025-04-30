@@ -1,0 +1,12 @@
+Lab 5: Data Frames, DF-based Aggregation, and Top Movie Reviews
+The goals of this lab are for you to be able to
+- Use Data Frames in Spark for Processing Structured Data
+- Perform Basic DataFrame Transformation: Filtering Rows and Selecting Columns of DataFrame
+- Create New Column of DataFrame using withColumn
+- Use DF SQL Function split to transform a string into an Array
+- Filter on a DF Column that is an Array using array_contains
+- Use Join to integrate DataFrames
+- Use GroupBy, followed by count and sum DF transformation to calculate the total count (of rows) and the summation of a DF column (e.g., reviews) for each group (e.g., movie).
+- Perform sorting on a DataFrame column
+- Apply the obove to find Movies in a Genre of your choice that has good reviews with a significant number of ratings (use 10 as the threshold for local mode, 100 as the threshold for cluster mode).
+- After completing all exercises in the Notebook, convert the code for processing large reviews dataset and large movies dataset to find movies with top average ranking with at least 100 reviews for a genre of your choice.
