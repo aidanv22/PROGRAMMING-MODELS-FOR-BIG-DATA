@@ -1,0 +1,5 @@
+Lab 4 Data Integration, Change Detection, Spark-submit in Cluster
+The goals of this lab are for you to be able to
+- Integrate multiple data sources using RDD-based join
+- Analyze temporal changes of Big Data
+- Apply the obove to compute hastag counts of Tweets after Boston Marathon Bombing (April 19 and April 20)
