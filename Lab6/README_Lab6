@@ -1,0 +1,11 @@
+Lab 6: Movie Recommendations Using Alternative Least Square (updated 2/18/2025)
+The goals of this lab are for you to be able to
+- Use Alternating Least Squares (ALS) for recommending movies based on reviews of users
+- Be able to understand the raionale for splitting data into training, validation, and testing.
+- Be able to use MLlib to implement an ALS-based movie recommendation system.
+- Be able to use RDD transformations to calculate training error, validation error, and prediction error of a model.
+- Be able to tune hyper-parameters of the ALS model using a small dataset (in local mode)
+- Be able to store the results of evaluating hyper-parameters using Pandas dataframe.
+- Be able to automatically identify the best hyper-parameters and evaluate the chosen model with testing data.
+- Be able to use CheckPoint to improve the efficiency of iterative processing using Spark.
+- Be able to debug (in local mode) using Restart Kernel if needed.
