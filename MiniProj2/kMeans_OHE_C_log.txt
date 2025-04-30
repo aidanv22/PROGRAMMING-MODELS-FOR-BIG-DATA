@@ -1,0 +1,479 @@
+/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/sbin/start-master.sh
+starting org.apache.spark.deploy.master.Master, logging to /storage/work/ajv5723/MiniProj2/spark-ajv5723-org.apache.spark.deploy.master.Master-1-p-bc-5199.out
+/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/bin/spark-class org.apache.spark.deploy.worker.Worker --work-dir /storage/work/ajv5723/MiniProj2 spark://p-bc-5199:7077
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/04/02 15:53:48 INFO Worker: Started daemon with process name: 1733523@p-bc-5199
+25/04/02 15:53:48 INFO SignalUtils: Registering signal handler for TERM
+25/04/02 15:53:48 INFO SignalUtils: Registering signal handler for HUP
+25/04/02 15:53:48 INFO SignalUtils: Registering signal handler for INT
+25/04/02 15:53:49 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/04/02 15:53:49 INFO SecurityManager: Changing view acls to: ajv5723
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/04/02 15:53:49 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/02 15:53:49 INFO SecurityManager: Changing view acls groups to: 
+25/04/02 15:53:49 INFO SecurityManager: Changing modify acls groups to: 
+25/04/02 15:53:49 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/02 15:53:49 INFO Worker: Started daemon with process name: 1550379@p-bc-5205
+25/04/02 15:53:49 INFO SignalUtils: Registering signal handler for TERM
+25/04/02 15:53:49 INFO SignalUtils: Registering signal handler for HUP
+25/04/02 15:53:49 INFO SignalUtils: Registering signal handler for INT
+25/04/02 15:53:49 INFO Utils: Successfully started service 'sparkWorker' on port 46579.
+25/04/02 15:53:49 INFO Worker: Worker decommissioning not enabled.
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/04/02 15:53:49 INFO Worker: Started daemon with process name: 3791402@p-bc-5219
+25/04/02 15:53:49 INFO SignalUtils: Registering signal handler for TERM
+25/04/02 15:53:49 INFO SignalUtils: Registering signal handler for HUP
+25/04/02 15:53:49 INFO SignalUtils: Registering signal handler for INT
+25/04/02 15:53:50 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/04/02 15:53:50 INFO Worker: Starting Spark worker 10.6.8.209:46579 with 2 cores, 7.0 GiB RAM
+25/04/02 15:53:50 INFO Worker: Started daemon with process name: 1818955@p-bc-5217
+25/04/02 15:53:50 INFO Worker: Running Spark version 3.3.0
+25/04/02 15:53:50 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/04/02 15:53:50 INFO SignalUtils: Registering signal handler for TERM
+25/04/02 15:53:50 INFO SignalUtils: Registering signal handler for HUP
+25/04/02 15:53:50 INFO SignalUtils: Registering signal handler for INT
+25/04/02 15:53:50 INFO ResourceUtils: ==============================================================
+25/04/02 15:53:50 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/04/02 15:53:50 INFO ResourceUtils: ==============================================================
+25/04/02 15:53:50 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/02 15:53:50 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/02 15:53:50 INFO SecurityManager: Changing view acls groups to: 
+25/04/02 15:53:50 INFO SecurityManager: Changing modify acls groups to: 
+25/04/02 15:53:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/02 15:53:50 WARN Utils: Service 'WorkerUI' could not bind on port 8081. Attempting port 8082.
+25/04/02 15:53:50 INFO Utils: Successfully started service 'WorkerUI' on port 8082.
+25/04/02 15:53:50 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5199.2e.hpc.psu.edu:8082
+25/04/02 15:53:50 INFO Worker: Connecting to master p-bc-5199:7077...
+25/04/02 15:53:50 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/04/02 15:53:50 INFO TransportClientFactory: Successfully created connection to p-bc-5199/10.6.8.209:7077 after 44 ms (0 ms spent in bootstraps)
+25/04/02 15:53:50 INFO Utils: Successfully started service 'sparkWorker' on port 33473.
+25/04/02 15:53:50 INFO Worker: Worker decommissioning not enabled.
+25/04/02 15:53:50 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/02 15:53:50 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/02 15:53:50 INFO SecurityManager: Changing view acls groups to: 
+25/04/02 15:53:50 INFO SecurityManager: Changing modify acls groups to: 
+25/04/02 15:53:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/02 15:53:50 INFO Worker: Successfully registered with master spark://p-bc-5199:7077
+25/04/02 15:53:50 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/04/02 15:53:50 INFO Worker: Starting Spark worker 10.6.8.215:33473 with 2 cores, 7.0 GiB RAM
+25/04/02 15:53:50 INFO Worker: Running Spark version 3.3.0
+25/04/02 15:53:50 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/04/02 15:53:50 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/02 15:53:50 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/02 15:53:50 INFO SecurityManager: Changing view acls groups to: 
+25/04/02 15:53:50 INFO SecurityManager: Changing modify acls groups to: 
+25/04/02 15:53:50 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/02 15:53:50 INFO ResourceUtils: ==============================================================
+25/04/02 15:53:50 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/04/02 15:53:50 INFO ResourceUtils: ==============================================================
+25/04/02 15:53:51 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/04/02 15:53:51 INFO Utils: Successfully started service 'sparkWorker' on port 45529.
+25/04/02 15:53:51 INFO Worker: Worker decommissioning not enabled.
+25/04/02 15:53:51 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5205.2e.hpc.psu.edu:8081
+25/04/02 15:53:51 INFO Worker: Connecting to master p-bc-5199:7077...
+25/04/02 15:53:51 INFO Utils: Successfully started service 'sparkWorker' on port 37277.
+25/04/02 15:53:51 INFO Worker: Worker decommissioning not enabled.
+25/04/02 15:53:51 INFO TransportClientFactory: Successfully created connection to p-bc-5199/10.6.8.209:7077 after 43 ms (0 ms spent in bootstraps)
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/04/02 15:53:51 INFO Worker: Successfully registered with master spark://p-bc-5199:7077
+25/04/02 15:53:51 INFO Worker: Started daemon with process name: 861106@p-bc-5211
+25/04/02 15:53:51 INFO SignalUtils: Registering signal handler for TERM
+25/04/02 15:53:51 INFO SignalUtils: Registering signal handler for HUP
+25/04/02 15:53:51 INFO SignalUtils: Registering signal handler for INT
+25/04/02 15:53:51 INFO Worker: Starting Spark worker 10.6.8.229:45529 with 2 cores, 7.0 GiB RAM
+25/04/02 15:53:51 INFO Worker: Running Spark version 3.3.0
+25/04/02 15:53:51 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/04/02 15:53:51 INFO ResourceUtils: ==============================================================
+25/04/02 15:53:51 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/04/02 15:53:51 INFO ResourceUtils: ==============================================================
+25/04/02 15:53:51 INFO Worker: Starting Spark worker 10.6.8.227:37277 with 2 cores, 7.0 GiB RAM
+25/04/02 15:53:51 INFO Worker: Running Spark version 3.3.0
+25/04/02 15:53:51 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/04/02 15:53:51 INFO ResourceUtils: ==============================================================
+25/04/02 15:53:51 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/04/02 15:53:51 INFO ResourceUtils: ==============================================================
+25/04/02 15:53:51 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/04/02 15:53:51 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5219.2e.hpc.psu.edu:8081
+25/04/02 15:53:51 INFO Worker: Connecting to master p-bc-5199:7077...
+25/04/02 15:53:51 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/04/02 15:53:52 INFO TransportClientFactory: Successfully created connection to p-bc-5199/10.6.8.209:7077 after 37 ms (0 ms spent in bootstraps)
+25/04/02 15:53:52 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5217.2e.hpc.psu.edu:8081
+25/04/02 15:53:52 INFO Worker: Connecting to master p-bc-5199:7077...
+25/04/02 15:53:52 INFO Worker: Successfully registered with master spark://p-bc-5199:7077
+25/04/02 15:53:52 INFO TransportClientFactory: Successfully created connection to p-bc-5199/10.6.8.209:7077 after 56 ms (0 ms spent in bootstraps)
+25/04/02 15:53:52 INFO Worker: Successfully registered with master spark://p-bc-5199:7077
+25/04/02 15:53:52 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/04/02 15:53:52 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/02 15:53:52 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/02 15:53:52 INFO SecurityManager: Changing view acls groups to: 
+25/04/02 15:53:52 INFO SecurityManager: Changing modify acls groups to: 
+25/04/02 15:53:52 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/02 15:53:53 INFO Utils: Successfully started service 'sparkWorker' on port 34941.
+25/04/02 15:53:53 INFO Worker: Worker decommissioning not enabled.
+25/04/02 15:53:53 INFO Worker: Starting Spark worker 10.6.8.221:34941 with 2 cores, 7.0 GiB RAM
+25/04/02 15:53:53 INFO Worker: Running Spark version 3.3.0
+25/04/02 15:53:53 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/04/02 15:53:53 INFO ResourceUtils: ==============================================================
+25/04/02 15:53:53 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/04/02 15:53:53 INFO ResourceUtils: ==============================================================
+25/04/02 15:53:53 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/04/02 15:53:53 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5211.2e.hpc.psu.edu:8081
+25/04/02 15:53:53 INFO Worker: Connecting to master p-bc-5199:7077...
+25/04/02 15:53:54 INFO TransportClientFactory: Successfully created connection to p-bc-5199/10.6.8.209:7077 after 44 ms (0 ms spent in bootstraps)
+25/04/02 15:53:54 INFO Worker: Successfully registered with master spark://p-bc-5199:7077
+/storage/icds/RISE/sw8/anaconda/anaconda3/lib/python3.9/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.1
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+25/04/02 15:54:11 INFO SparkContext: Running Spark version 3.3.0
+25/04/02 15:54:11 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/04/02 15:54:11 INFO ResourceUtils: ==============================================================
+25/04/02 15:54:11 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/04/02 15:54:11 INFO ResourceUtils: ==============================================================
+25/04/02 15:54:11 INFO SparkContext: Submitted application: MiniProject 2 k-meas Clustering using OHE
+25/04/02 15:54:11 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/04/02 15:54:11 INFO ResourceProfile: Limiting resource is cpu
+25/04/02 15:54:11 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/04/02 15:54:11 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/02 15:54:11 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/02 15:54:11 INFO SecurityManager: Changing view acls groups to: 
+25/04/02 15:54:11 INFO SecurityManager: Changing modify acls groups to: 
+25/04/02 15:54:11 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/02 15:54:11 INFO Utils: Successfully started service 'sparkDriver' on port 36157.
+25/04/02 15:54:11 INFO SparkEnv: Registering MapOutputTracker
+25/04/02 15:54:11 INFO SparkEnv: Registering BlockManagerMaster
+25/04/02 15:54:11 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/04/02 15:54:11 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/04/02 15:54:11 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/04/02 15:54:11 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-b726f81c-cdc4-4801-a45f-fe51c7c15276
+25/04/02 15:54:11 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+25/04/02 15:54:11 INFO SparkEnv: Registering OutputCommitCoordinator
+25/04/02 15:54:12 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/04/02 15:54:12 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://p-bc-5199:7077...
+25/04/02 15:54:12 INFO TransportClientFactory: Successfully created connection to p-bc-5199/10.6.8.209:7077 after 32 ms (0 ms spent in bootstraps)
+25/04/02 15:54:12 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20250402155412-0000
+25/04/02 15:54:12 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 35943.
+25/04/02 15:54:12 INFO NettyBlockTransferService: Server created on p-bc-5199.2e.hpc.psu.edu:35943
+25/04/02 15:54:12 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/04/02 15:54:12 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, p-bc-5199.2e.hpc.psu.edu, 35943, None)
+25/04/02 15:54:12 INFO BlockManagerMasterEndpoint: Registering block manager p-bc-5199.2e.hpc.psu.edu:35943 with 434.4 MiB RAM, BlockManagerId(driver, p-bc-5199.2e.hpc.psu.edu, 35943, None)
+25/04/02 15:54:12 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, p-bc-5199.2e.hpc.psu.edu, 35943, None)
+25/04/02 15:54:12 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, p-bc-5199.2e.hpc.psu.edu, 35943, None)
+25/04/02 15:54:12 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250402155412-0000/0 on worker-20250402155351-10.6.8.227-37277 (10.6.8.227:37277) with 2 core(s)
+25/04/02 15:54:12 INFO StandaloneSchedulerBackend: Granted executor ID app-20250402155412-0000/0 on hostPort 10.6.8.227:37277 with 2 core(s), 1024.0 MiB RAM
+25/04/02 15:54:12 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250402155412-0000/1 on worker-20250402155353-10.6.8.221-34941 (10.6.8.221:34941) with 2 core(s)
+25/04/02 15:54:12 INFO StandaloneSchedulerBackend: Granted executor ID app-20250402155412-0000/1 on hostPort 10.6.8.221:34941 with 2 core(s), 1024.0 MiB RAM
+25/04/02 15:54:12 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250402155412-0000/2 on worker-20250402155350-10.6.8.215-33473 (10.6.8.215:33473) with 2 core(s)
+25/04/02 15:54:12 INFO StandaloneSchedulerBackend: Granted executor ID app-20250402155412-0000/2 on hostPort 10.6.8.215:33473 with 2 core(s), 1024.0 MiB RAM
+25/04/02 15:54:12 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250402155412-0000/3 on worker-20250402155349-10.6.8.209-46579 (10.6.8.209:46579) with 2 core(s)
+25/04/02 15:54:12 INFO StandaloneSchedulerBackend: Granted executor ID app-20250402155412-0000/3 on hostPort 10.6.8.209:46579 with 2 core(s), 1024.0 MiB RAM
+25/04/02 15:54:12 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250402155412-0000/4 on worker-20250402155351-10.6.8.229-45529 (10.6.8.229:45529) with 2 core(s)
+25/04/02 15:54:12 INFO StandaloneSchedulerBackend: Granted executor ID app-20250402155412-0000/4 on hostPort 10.6.8.229:45529 with 2 core(s), 1024.0 MiB RAM
+25/04/02 15:54:12 INFO Worker: Asked to launch executor app-20250402155412-0000/1 for MiniProject 2 k-meas Clustering using OHE
+25/04/02 15:54:12 INFO Worker: Asked to launch executor app-20250402155412-0000/2 for MiniProject 2 k-meas Clustering using OHE
+25/04/02 15:54:12 INFO Worker: Asked to launch executor app-20250402155412-0000/0 for MiniProject 2 k-meas Clustering using OHE
+25/04/02 15:54:12 INFO Worker: Asked to launch executor app-20250402155412-0000/4 for MiniProject 2 k-meas Clustering using OHE
+25/04/02 15:54:12 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/02 15:54:12 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/02 15:54:12 INFO SecurityManager: Changing view acls groups to: 
+25/04/02 15:54:12 INFO SecurityManager: Changing modify acls groups to: 
+25/04/02 15:54:12 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/02 15:54:12 INFO Worker: Asked to launch executor app-20250402155412-0000/3 for MiniProject 2 k-meas Clustering using OHE
+25/04/02 15:54:12 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/02 15:54:12 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/02 15:54:12 INFO SecurityManager: Changing view acls groups to: 
+25/04/02 15:54:12 INFO SecurityManager: Changing modify acls groups to: 
+25/04/02 15:54:12 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/02 15:54:12 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/02 15:54:12 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/02 15:54:12 INFO SecurityManager: Changing view acls groups to: 
+25/04/02 15:54:12 INFO SecurityManager: Changing modify acls groups to: 
+25/04/02 15:54:12 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/02 15:54:12 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/conf/:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=36157" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5199.2e.hpc.psu.edu:36157" "--executor-id" "1" "--hostname" "10.6.8.221" "--cores" "2" "--app-id" "app-20250402155412-0000" "--worker-url" "spark://Worker@10.6.8.221:34941"
+25/04/02 15:54:12 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/02 15:54:12 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/02 15:54:12 INFO SecurityManager: Changing view acls groups to: 
+25/04/02 15:54:12 INFO SecurityManager: Changing modify acls groups to: 
+25/04/02 15:54:12 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/02 15:54:12 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/conf/:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=36157" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5199.2e.hpc.psu.edu:36157" "--executor-id" "2" "--hostname" "10.6.8.215" "--cores" "2" "--app-id" "app-20250402155412-0000" "--worker-url" "spark://Worker@10.6.8.215:33473"
+25/04/02 15:54:12 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/02 15:54:12 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/02 15:54:12 INFO SecurityManager: Changing view acls groups to: 
+25/04/02 15:54:12 INFO SecurityManager: Changing modify acls groups to: 
+25/04/02 15:54:12 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/02 15:54:12 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/conf/:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=36157" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UN25/04/02 15:54:12 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/conf/:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=36157" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5199.2e.hpc.psu.edu:36157" "--executor-id" "4" "--hostname" "10.6.8.229" "--cores" "2" "--app-id" "app-20250402155412-0000" "--worker-url" "spark://Worker@10.6.8.229:45529"
+NAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5199.2e.hpc.psu.edu:36157" "--executor-id" "0" "--hostname" "10.6.8.227" "--cores" "2" "--app-id" "app-20250402155412-0000" "--worker-url" "spark://Worker@10.6.8.227:37277"
+25/04/02 15:54:12 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/conf/:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=36157" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5199.2e.hpc.psu.edu:36157" "--executor-id" "3" "--hostname" "10.6.8.209" "--cores" "2" "--app-id" "app-20250402155412-0000" "--worker-url" "spark://Worker@10.6.8.209:46579"
+25/04/02 15:54:12 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250402155412-0000/1 is now RUNNING
+25/04/02 15:54:12 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250402155412-0000/2 is now RUNNING
+25/04/02 15:54:12 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250402155412-0000/4 is now RUNNING
+25/04/02 15:54:12 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250402155412-0000/0 is now RUNNING
+25/04/02 15:54:12 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250402155412-0000/3 is now RUNNING
+25/04/02 15:54:12 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+root
+ |-- _c0: integer (nullable = true)
+ |-- id: integer (nullable = true)
+ |-- numports: integer (nullable = true)
+ |-- lifetime: decimal(10,0) (nullable = true)
+ |-- Bytes: integer (nullable = true)
+ |-- Packets: integer (nullable = true)
+ |-- average_packetsize: integer (nullable = true)
+ |-- MinUniqueDests: integer (nullable = true)
+ |-- MaxUniqueDests: integer (nullable = true)
+ |-- MinUniqueDest24s: integer (nullable = true)
+ |-- MaxUniqueDest24s: integer (nullable = true)
+ |-- average_lifetime: decimal(10,0) (nullable = true)
+ |-- mirai: boolean (nullable = true)
+ |-- zmap: boolean (nullable = true)
+ |-- masscan: boolean (nullable = true)
+ |-- country: string (nullable = true)
+ |-- traffic_types_scanned_str: string (nullable = true)
+ |-- ports_scanned_str: string (nullable = true)
+ |-- host_tags_per_censys: string (nullable = true)
+ |-- host_services_per_censys: string (nullable = true)
+
++--------+-----+
+|numports|count|
++--------+-----+
+|   38150|    1|
+|   35756|    1|
+|    1823|    1|
+|     939|    1|
+|   36794|    1|
+|     731|    1|
+|    1280|    1|
+|   23589|    1|
+|    2680|    1|
+|     388|    1|
++--------+-----+
+only showing top 10 rows
+
+root
+ |-- _c0: integer (nullable = true)
+ |-- id: integer (nullable = true)
+ |-- numports: integer (nullable = true)
+ |-- lifetime: decimal(10,0) (nullable = true)
+ |-- Bytes: integer (nullable = true)
+ |-- Packets: integer (nullable = true)
+ |-- average_packetsize: integer (nullable = true)
+ |-- MinUniqueDests: integer (nullable = true)
+ |-- MaxUniqueDests: integer (nullable = true)
+ |-- MinUniqueDest24s: integer (nullable = true)
+ |-- MaxUniqueDest24s: integer (nullable = true)
+ |-- average_lifetime: decimal(10,0) (nullable = true)
+ |-- mirai: boolean (nullable = true)
+ |-- zmap: boolean (nullable = true)
+ |-- masscan: boolean (nullable = true)
+ |-- country: string (nullable = true)
+ |-- traffic_types_scanned_str: string (nullable = true)
+ |-- ports_scanned_str: string (nullable = true)
+ |-- host_tags_per_censys: string (nullable = true)
+ |-- host_services_per_censys: string (nullable = true)
+ |-- Ports_Array: array (nullable = true)
+ |    |-- element: string (containsNull = false)
+ |-- Port17132: boolean (nullable = true)
+ |-- Port17140: boolean (nullable = true)
+ |-- Port17128: boolean (nullable = true)
+ |-- Port17130: boolean (nullable = true)
+ |-- Port17138: boolean (nullable = true)
+ |-- Port17136: boolean (nullable = true)
+ |-- Port17134: boolean (nullable = true)
+ |-- Port17142: boolean (nullable = true)
+ |-- Port80: boolean (nullable = true)
+ |-- Port8080: boolean (nullable = true)
+ |-- Port23: boolean (nullable = true)
+ |-- Port2323: boolean (nullable = true)
+ |-- Port81: boolean (nullable = true)
+ |-- Port5555: boolean (nullable = true)
+ |-- Port1023: boolean (nullable = true)
+ |-- Port52869: boolean (nullable = true)
+ |-- Port8443: boolean (nullable = true)
+ |-- Port49152: boolean (nullable = true)
+ |-- Port7574: boolean (nullable = true)
+ |-- Port37215: boolean (nullable = true)
+ |-- Port54594: boolean (nullable = true)
+ |-- Port34218: boolean (nullable = true)
+ |-- Port34226: boolean (nullable = true)
+ |-- Port34224: boolean (nullable = true)
+ |-- Port34228: boolean (nullable = true)
+ |-- Port34216: boolean (nullable = true)
+ |-- Port34220: boolean (nullable = true)
+ |-- Port33964: boolean (nullable = true)
+ |-- Port33960: boolean (nullable = true)
+ |-- Port33962: boolean (nullable = true)
+ |-- Port33970: boolean (nullable = true)
+ |-- Port33972: boolean (nullable = true)
+ |-- Port33968: boolean (nullable = true)
+ |-- Port50401: boolean (nullable = true)
+ |-- Port34222: boolean (nullable = true)
+ |-- Port34230: boolean (nullable = true)
+ |-- Port33966: boolean (nullable = true)
+ |-- Port33974: boolean (nullable = true)
+ |-- Port445: boolean (nullable = true)
+ |-- Port0: boolean (nullable = true)
+ |-- Port22: boolean (nullable = true)
+ |-- Port8291: boolean (nullable = true)
+ |-- Port8728: boolean (nullable = true)
+ |-- Port1433: boolean (nullable = true)
+ |-- Port8000: boolean (nullable = true)
+ |-- Port8081: boolean (nullable = true)
+ |-- Port5353: boolean (nullable = true)
+ |-- Port2004: boolean (nullable = true)
+ |-- Port11211: boolean (nullable = true)
+ |-- Port6881: boolean (nullable = true)
+ |-- Port8082: boolean (nullable = true)
+ |-- Port443: boolean (nullable = true)
+ |-- Port4000: boolean (nullable = true)
+ |-- Port5060: boolean (nullable = true)
+ |-- Port8083: boolean (nullable = true)
+ |-- Port8088: boolean (nullable = true)
+ |-- Port6379: boolean (nullable = true)
+ |-- Port30301: boolean (nullable = true)
+ |-- Port7001: boolean (nullable = true)
+ |-- Port9527: boolean (nullable = true)
+ |-- Port7002: boolean (nullable = true)
+ |-- Port9200: boolean (nullable = true)
+ |-- Port1027: boolean (nullable = true)
+ |-- Port3389: boolean (nullable = true)
+ |-- Port1900: boolean (nullable = true)
+ |-- Port21: boolean (nullable = true)
+ |-- Port5900: boolean (nullable = true)
+ |-- Port6380: boolean (nullable = true)
+ |-- Port88: boolean (nullable = true)
+ |-- Port389: boolean (nullable = true)
+ |-- Port8181: boolean (nullable = true)
+ |-- Port35: boolean (nullable = true)
+ |-- Port5000: boolean (nullable = true)
+ |-- Port5001: boolean (nullable = true)
+ |-- Port8008: boolean (nullable = true)
+ |-- Port4444: boolean (nullable = true)
+ |-- Port49153: boolean (nullable = true)
+ |-- Port137: boolean (nullable = true)
+ |-- Port7547: boolean (nullable = true)
+ |-- Port56880: boolean (nullable = true)
+ |-- Port5984: boolean (nullable = true)
+ |-- Port2222: boolean (nullable = true)
+ |-- Port8001: boolean (nullable = true)
+ |-- Port2480: boolean (nullable = true)
+ |-- Port8888: boolean (nullable = true)
+ |-- Port139: boolean (nullable = true)
+ |-- Port53: boolean (nullable = true)
+ |-- Port3544: boolean (nullable = true)
+ |-- Port873: boolean (nullable = true)
+ |-- Port50070: boolean (nullable = true)
+ |-- Port161: boolean (nullable = true)
+ |-- Port631: boolean (nullable = true)
+ |-- Port9000: boolean (nullable = true)
+ |-- Port111: boolean (nullable = true)
+ |-- Port27017: boolean (nullable = true)
+ |-- Port4786: boolean (nullable = true)
+ |-- Port1883: boolean (nullable = true)
+ |-- Port8090: boolean (nullable = true)
+ |-- Port554: boolean (nullable = true)
+ |-- Port3306: boolean (nullable = true)
+ |-- Port60001: boolean (nullable = true)
+ |-- Port82: boolean (nullable = true)
+ |-- Port83: boolean (nullable = true)
+ |-- Port3443: boolean (nullable = true)
+ |-- Port85: boolean (nullable = true)
+ |-- Port12866: boolean (nullable = true)
+ |-- Port3000: boolean (nullable = true)
+ |-- Port587: boolean (nullable = true)
+ |-- Port5901: boolean (nullable = true)
+ |-- Port143: boolean (nullable = true)
+ |-- Port50075: boolean (nullable = true)
+ |-- Port444: boolean (nullable = true)
+ |-- Port995: boolean (nullable = true)
+ |-- Port1521: boolean (nullable = true)
+ |-- Port110: boolean (nullable = true)
+ |-- Port465: boolean (nullable = true)
+ |-- Port993: boolean (nullable = true)
+ |-- Port10001: boolean (nullable = true)
+ |-- Port7777: boolean (nullable = true)
+ |-- Port548: boolean (nullable = true)
+
+25/04/02 15:54:54 WARN package: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
++---+---+--------+--------+-----+-------+------------------+--------------+--------------+----------------+----------------+----------------+-----+-----+-------+-------+-------------------------+-----------------+--------------------+------------------------+--------------+---------+---------+---------+---------+---------+---------+---------+---------+------+--------+------+--------+------+--------+--------+---------+--------+---------+--------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-------+-----+------+--------+--------+--------+--------+--------+--------+--------+---------+--------+--------+-------+--------+--------+--------+--------+--------+---------+--------+--------+--------+--------+--------+--------+--------+------+--------+--------+------+-------+--------+------+--------+--------+--------+--------+---------+-------+--------+---------+--------+--------+--------+--------+--------+-------+------+--------+-------+---------+-------+-------+--------+-------+---------+--------+--------+--------+-------+--------+---------+------+------+--------+------+---------+--------+-------+--------+-------+---------+-------+-------+--------+-------+-------+-------+---------+--------+-------+--------------------+
+|_c0| id|numports|lifetime|Bytes|Packets|average_packetsize|MinUniqueDests|MaxUniqueDests|MinUniqueDest24s|MaxUniqueDest24s|average_lifetime|mirai| zmap|masscan|country|traffic_types_scanned_str|ports_scanned_str|host_tags_per_censys|host_services_per_censys|   Ports_Array|Port17132|Port17140|Port17128|Port17130|Port17138|Port17136|Port17134|Port17142|Port80|Port8080|Port23|Port2323|Port81|Port5555|Port1023|Port52869|Port8443|Port49152|Port7574|Port37215|Port54594|Port34218|Port34226|Port34224|Port34228|Port34216|Port34220|Port33964|Port33960|Port33962|Port33970|Port33972|Port33968|Port50401|Port34222|Port34230|Port33966|Port33974|Port445|Port0|Port22|Port8291|Port8728|Port1433|Port8000|Port8081|Port5353|Port2004|Port11211|Port6881|Port8082|Port443|Port4000|Port5060|Port8083|Port8088|Port6379|Port30301|Port7001|Port9527|Port7002|Port9200|Port1027|Port3389|Port1900|Port21|Port5900|Port6380|Port88|Port389|Port8181|Port35|Port5000|Port5001|Port8008|Port4444|Port49153|Port137|Port7547|Port56880|Port5984|Port2222|Port8001|Port2480|Port8888|Port139|Port53|Port3544|Port873|Port50070|Port161|Port631|Port9000|Port111|Port27017|Port4786|Port1883|Port8090|Port554|Port3306|Port60001|Port82|Port83|Port3443|Port85|Port12866|Port3000|Port587|Port5901|Port143|Port50075|Port444|Port995|Port1521|Port110|Port465|Port993|Port10001|Port7777|Port548|            features|
++---+---+--------+--------+-----+-------+------------------+--------------+--------------+----------------+----------------+----------------+-----+-----+-------+-------+-------------------------+-----------------+--------------------+------------------------+--------------+---------+---------+---------+---------+---------+---------+---------+---------+------+--------+------+--------+------+--------+--------+---------+--------+---------+--------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-------+-----+------+--------+--------+--------+--------+--------+--------+--------+---------+--------+--------+-------+--------+--------+--------+--------+--------+---------+--------+--------+--------+--------+--------+--------+--------+------+--------+--------+------+-------+--------+------+--------+--------+--------+--------+---------+-------+--------+---------+--------+--------+--------+--------+--------+-------+------+--------+-------+---------+-------+-------+--------+-------+---------+--------+--------+--------+-------+--------+---------+------+------+--------+------+---------+--------+-------+--------+-------+---------+-------+-------+--------+-------+-------+-------+---------+--------+-------+--------------------+
+|  7|  7|       2|     240| 5624|     76|                74|             1|             1|               1|               1|              15|false|false|  false|     AE|                       11|      17134-17142|embedded-ftp-http...|    21-443-445-5001-8...|[17134, 17142]|    false|    false|    false|    false|    false|    false|     true|     true| false|   false| false|   false| false|   false|   false|    false|   false|    false|   false|    false|    false|    false|    false|    false|    false|    false|    false|    false|    false|    false|    false|    false|    false|    false|    false|    false|    false|    false|  false|false| false|   false|   false|   false|   false|   false|   false|   false|    false|   false|   false|  false|   false|   false|   false|   false|   false|    false|   false|   false|   false|   false|   false|   false|   false| false|   false|   false| false|  false|   false| false|   false|   false|   false|   false|    false|  false|   false|    false|   false|   false|   false|   false|   false|  false| false|   false|  false|    false|  false|  false|   false|  false|    false|   false|   false|   false|  false|   false|    false| false| false|   false| false|    false|   false|  false|   false|  false|    false|  false|  false|   false|  false|  false|  false|    false|   false|  false|(120,[6,7],[1.0,1...|
++---+---+--------+--------+-----+-------+------------------+--------------+--------------+----------------+----------------+----------------+-----+-----+-------+-------+-------------------------+-----------------+--------------------+------------------------+--------------+---------+---------+---------+---------+---------+---------+---------+---------+------+--------+------+--------+------+--------+--------+---------+--------+---------+--------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+---------+-------+-----+------+--------+--------+--------+--------+--------+--------+--------+---------+--------+--------+-------+--------+--------+--------+--------+--------+---------+--------+--------+--------+--------+--------+--------+--------+------+--------+--------+------+-------+--------+------+--------+--------+--------+--------+---------+-------+--------+---------+--------+--------+--------+--------+--------+-------+------+--------+-------+---------+-------+-------+--------+-------+---------+--------+--------+--------+-------+--------+---------+------+------+--------+------+---------+--------+-------+--------+-------+---------+-------+-------+--------+-------+-------+-------+---------+--------+-------+--------------------+
+only showing top 1 row
+
+Silhouette Score of the Clustering Result is  0.49800264147918544
+Cluster  4 ; Mirai Ratio: 0.029402818615025854 ; Cluster Size:  9863
+Cluster  9 ; Mirai Ratio: 0.07811717576364546 ; Cluster Size:  1997
+Cluster  13 ; Mirai Ratio: 0.002516915150348667 ; Cluster Size:  67543
+Cluster  16 ; Mirai Ratio: 0.0016224188790560472 ; Cluster Size:  67800
+Cluster  44 ; Mirai Ratio: 0.2426147077309868 ; Cluster Size:  3182
+Cluster  50 ; Mirai Ratio: 0.03152542372881356 ; Cluster Size:  8850
+Cluster  71 ; Mirai Ratio: 0.9127025163736643 ; Cluster Size:  11604
+Cluster  87 ; Mirai Ratio: 0.003952569169960474 ; Cluster Size:  759
+Cluster  157 ; Mirai Ratio: 0.00066711140760507 ; Cluster Size:  1499
+Cluster  178 ; Mirai Ratio: 0.0027567195037904893 ; Cluster Size:  1451
+Cluster  179 ; Mirai Ratio: 0.16805324459234608 ; Cluster Size:  601
+Cluster  184 ; Mirai Ratio: 0.4993215739484396 ; Cluster Size:  737
+Cluster  188 ; Mirai Ratio: 0.11884935654806965 ; Cluster Size:  1321
+Cluster  190 ; Mirai Ratio: 0.009885118888592039 ; Cluster Size:  3743
+25/04/02 15:58:54 INFO Worker: Asked to kill executor app-20250402155412-0000/2
+25/04/02 15:58:54 INFO Worker: Asked to kill executor app-20250402155412-0000/3
+25/04/02 15:58:54 INFO Worker: Asked to kill executor app-20250402155412-0000/4
+25/04/02 15:58:54 INFO Worker: Asked to kill executor app-20250402155412-0000/0
+25/04/02 15:58:54 INFO Worker: Asked to kill executor app-20250402155412-0000/1
+25/04/02 15:58:54 INFO ExecutorRunner: Runner thread for executor app-20250402155412-0000/3 interrupted
+25/04/02 15:58:54 INFO ExecutorRunner: Runner thread for executor app-20250402155412-0000/4 interrupted
+25/04/02 15:58:54 INFO ExecutorRunner: Runner thread for executor app-20250402155412-0000/0 interrupted
+25/04/02 15:58:54 INFO ExecutorRunner: Runner thread for executor app-20250402155412-0000/1 interrupted
+25/04/02 15:58:54 INFO ExecutorRunner: Killing process!
+25/04/02 15:58:54 INFO ExecutorRunner: Killing process!
+25/04/02 15:58:54 INFO ExecutorRunner: Killing process!
+25/04/02 15:58:54 INFO ExecutorRunner: Killing process!
+25/04/02 15:58:54 INFO ExecutorRunner: Runner thread for executor app-20250402155412-0000/2 interrupted
+25/04/02 15:58:54 INFO ExecutorRunner: Killing process!
+25/04/02 15:58:54 INFO Worker: Executor app-20250402155412-0000/0 finished with state KILLED exitStatus 0
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 0
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250402155412-0000, execId=0)
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Application app-20250402155412-0000 removed, cleanupLocalDirs = true
+25/04/02 15:58:54 INFO Worker: Executor app-20250402155412-0000/4 finished with state KILLED exitStatus 0
+25/04/02 15:58:54 INFO Worker: Cleaning up local directories for application app-20250402155412-0000
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 4
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250402155412-0000, execId=4)
+25/04/02 15:58:54 INFO Worker: Executor app-20250402155412-0000/1 finished with state KILLED exitStatus 0
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 1
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Application app-20250402155412-0000 removed, cleanupLocalDirs = true
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250402155412-0000, execId=1)
+25/04/02 15:58:54 INFO Worker: Cleaning up local directories for application app-20250402155412-0000
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Application app-20250402155412-0000 removed, cleanupLocalDirs = true
+25/04/02 15:58:54 INFO Worker: Cleaning up local directories for application app-20250402155412-0000
+25/04/02 15:58:54 INFO Worker: Executor app-20250402155412-0000/3 finished with state KILLED exitStatus 0
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 3
+25/04/02 15:58:54 INFO Worker: Executor app-20250402155412-0000/2 finished with state KILLED exitStatus 0
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 2
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250402155412-0000, execId=2)
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Application app-20250402155412-0000 removed, cleanupLocalDirs = true
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250402155412-0000, execId=3)
+25/04/02 15:58:54 INFO Worker: Cleaning up local directories for application app-20250402155412-0000
+25/04/02 15:58:54 INFO ExternalShuffleBlockResolver: Application app-20250402155412-0000 removed, cleanupLocalDirs = true
+25/04/02 15:58:54 INFO Worker: Cleaning up local directories for application app-20250402155412-0000
+SPARK_MASTER_HOST=p-bc-5199
+SPARK_MASTER_PORT=7077
+
+real	5m15.883s
+user	3m21.716s
+sys	0m7.918s
+slurmstepd: error: *** STEP 36131349.0 ON p-bc-5199 CANCELLED AT 2025-04-02T18:52:44 DUE TO TIME LIMIT ***
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+25/04/02 18:52:44 ERROR Worker: RECEIVED SIGNAL TERM
+25/04/02 18:52:44 ERROR Worker: RECEIVED SIGNAL TERM
+25/04/02 18:52:44 ERROR Worker: RECEIVED SIGNAL TERM
+25/04/02 18:52:44 ERROR Worker: RECEIVED SIGNAL TERM
+25/04/02 18:52:44 ERROR Worker: RECEIVED SIGNAL TERM
+25/04/02 18:52:44 INFO ShutdownHookManager: Shutdown hook called
+25/04/02 18:52:44 INFO ShutdownHookManager: Shutdown hook called
+25/04/02 18:52:44 INFO ShutdownHookManager: Deleting directory /tmp/spark-a46532a2-1e4d-45f6-a9f5-e65b851d2092
+25/04/02 18:52:44 INFO ShutdownHookManager: Deleting directory /tmp/spark-4501010c-ee29-4ec7-91c1-3b8ebab69562
+25/04/02 18:52:44 INFO ShutdownHookManager: Shutdown hook called
+25/04/02 18:52:44 INFO ShutdownHookManager: Shutdown hook called
+25/04/02 18:52:44 INFO ShutdownHookManager: Deleting directory /tmp/spark-2c9630ea-552a-401d-a515-1b953e79ee19
+25/04/02 18:52:44 INFO ShutdownHookManager: Deleting directory /tmp/spark-61f13b09-ac7c-4b6c-a581-42f9f7f124f7
+25/04/02 18:52:44 INFO ShutdownHookManager: Shutdown hook called
+25/04/02 18:52:44 INFO ShutdownHookManager: Deleting directory /tmp/spark-b8f102cd-5289-4ee1-b834-5e82cab87b7e
