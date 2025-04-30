@@ -1,0 +1,11 @@
+Lab 7: Post-Modeling Analysis: ALS Recommendation Systems
+The goals of this lab are for you to be able to
+- Conduct post-modeling analysis using PySpark to identify weakness of the model.
+- Data used in this lab includes those used in Lab 6 and the csv file of predicted rating and actual rating for testing data you generated in Lab 6
+- For ALS-recommendation systems, be able to calculate average errors for each movie and each user.
+- Be able to investigate the relationship between average error and total number of reviews for movies.
+- Be able to investigate the relationship between average error and total number of reviews for users.
+- Be able to identify opportunities to improve the performance of recommendation system based on the result of analysis above.
+- Be able to filter movies and/or users based on the opportunities identified to improve the recommendation system.
+- Be able to perform hyper-parameter tuning on the filtered data and compare its performance with that of the original model.
+- Be able to debug (in local mode) using Restart Kernel if needed.
