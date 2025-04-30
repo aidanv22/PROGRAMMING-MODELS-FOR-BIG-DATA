@@ -1,0 +1,398 @@
+/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/sbin/start-master.sh
+starting org.apache.spark.deploy.master.Master, logging to /storage/work/ajv5723/MiniProj1/spark-ajv5723-org.apache.spark.deploy.master.Master-1-p-bc-5019.out
+/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/bin/spark-class org.apache.spark.deploy.worker.Worker --work-dir /storage/work/ajv5723/MiniProj1 spark://p-bc-5019:7077
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/03/25 18:00:36 INFO Worker: Started daemon with process name: 230206@p-bc-5019
+25/03/25 18:00:36 INFO SignalUtils: Registering signal handler for TERM
+25/03/25 18:00:36 INFO SignalUtils: Registering signal handler for HUP
+25/03/25 18:00:36 INFO SignalUtils: Registering signal handler for INT
+25/03/25 18:00:37 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/03/25 18:00:37 INFO SecurityManager: Changing view acls to: ajv5723
+25/03/25 18:00:37 INFO SecurityManager: Changing modify acls to: ajv5723
+25/03/25 18:00:37 INFO SecurityManager: Changing view acls groups to: 
+25/03/25 18:00:37 INFO SecurityManager: Changing modify acls groups to: 
+25/03/25 18:00:37 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/03/25 18:00:37 INFO Utils: Successfully started service 'sparkWorker' on port 37119.
+25/03/25 18:00:37 INFO Worker: Worker decommissioning not enabled.
+25/03/25 18:00:38 INFO Worker: Starting Spark worker 10.6.8.29:37119 with 2 cores, 7.0 GiB RAM
+25/03/25 18:00:38 INFO Worker: Running Spark version 3.3.0
+25/03/25 18:00:38 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/03/25 18:00:38 INFO ResourceUtils: ==============================================================
+25/03/25 18:00:38 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/03/25 18:00:38 INFO ResourceUtils: ==============================================================
+25/03/25 18:00:38 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/03/25 18:00:38 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5019.2e.hpc.psu.edu:8081
+25/03/25 18:00:38 INFO Worker: Connecting to master p-bc-5019:7077...
+25/03/25 18:00:38 INFO TransportClientFactory: Successfully created connection to p-bc-5019/10.6.8.29:7077 after 58 ms (0 ms spent in bootstraps)
+25/03/25 18:00:38 INFO Worker: Successfully registered with master spark://p-bc-5019:7077
+/storage/icds/RISE/sw8/anaconda/anaconda3/lib/python3.9/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.1
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+25/03/25 18:00:52 INFO SparkContext: Running Spark version 3.3.0
+25/03/25 18:00:52 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/03/25 18:00:53 INFO ResourceUtils: ==============================================================
+25/03/25 18:00:53 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/03/25 18:00:53 INFO ResourceUtils: ==============================================================
+25/03/25 18:00:53 INFO SparkContext: Submitted application: Mini Project #1 Freqent Port Sets Mining
+25/03/25 18:00:53 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/03/25 18:00:53 INFO ResourceProfile: Limiting resource is cpu
+25/03/25 18:00:53 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/03/25 18:00:53 INFO SecurityManager: Changing view acls to: ajv5723
+25/03/25 18:00:53 INFO SecurityManager: Changing modify acls to: ajv5723
+25/03/25 18:00:53 INFO SecurityManager: Changing view acls groups to: 
+25/03/25 18:00:53 INFO SecurityManager: Changing modify acls groups to: 
+25/03/25 18:00:53 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/03/25 18:00:53 INFO Utils: Successfully started service 'sparkDriver' on port 34821.
+25/03/25 18:00:53 INFO SparkEnv: Registering MapOutputTracker
+25/03/25 18:00:53 INFO SparkEnv: Registering BlockManagerMaster
+25/03/25 18:00:53 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/03/25 18:00:53 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/03/25 18:00:53 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/03/25 18:00:53 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-e3802938-e14d-4fa0-99ad-27abd6f51380
+25/03/25 18:00:53 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+25/03/25 18:00:53 INFO SparkEnv: Registering OutputCommitCoordinator
+25/03/25 18:00:54 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/03/25 18:00:54 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://p-bc-5019:7077...
+25/03/25 18:00:54 INFO TransportClientFactory: Successfully created connection to p-bc-5019/10.6.8.29:7077 after 39 ms (0 ms spent in bootstraps)
+25/03/25 18:00:54 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20250325180054-0000
+25/03/25 18:00:54 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 45947.
+25/03/25 18:00:54 INFO NettyBlockTransferService: Server created on p-bc-5019.2e.hpc.psu.edu:45947
+25/03/25 18:00:54 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/03/25 18:00:54 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, p-bc-5019.2e.hpc.psu.edu, 45947, None)
+25/03/25 18:00:54 INFO BlockManagerMasterEndpoint: Registering block manager p-bc-5019.2e.hpc.psu.edu:45947 with 434.4 MiB RAM, BlockManagerId(driver, p-bc-5019.2e.hpc.psu.edu, 45947, None)
+25/03/25 18:00:54 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, p-bc-5019.2e.hpc.psu.edu, 45947, None)
+25/03/25 18:00:54 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, p-bc-5019.2e.hpc.psu.edu, 45947, None)
+25/03/25 18:00:54 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250325180054-0000/0 on worker-20250325180038-10.6.8.29-37119 (10.6.8.29:37119) with 2 core(s)
+25/03/25 18:00:54 INFO StandaloneSchedulerBackend: Granted executor ID app-20250325180054-0000/0 on hostPort 10.6.8.29:37119 with 2 core(s), 1024.0 MiB RAM
+25/03/25 18:00:54 INFO Worker: Asked to launch executor app-20250325180054-0000/0 for Mini Project #1 Freqent Port Sets Mining
+25/03/25 18:00:54 INFO SecurityManager: Changing view acls to: ajv5723
+25/03/25 18:00:54 INFO SecurityManager: Changing modify acls to: ajv5723
+25/03/25 18:00:54 INFO SecurityManager: Changing view acls groups to: 
+25/03/25 18:00:54 INFO SecurityManager: Changing modify acls groups to: 
+25/03/25 18:00:54 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/03/25 18:00:54 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/conf/:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=34821" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5019.2e.hpc.psu.edu:34821" "--executor-id" "0" "--hostname" "10.6.8.29" "--cores" "2" "--app-id" "app-20250325180054-0000" "--worker-url" "spark://Worker@10.6.8.29:37119"
+25/03/25 18:00:55 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250325180054-0000/0 is now RUNNING
+25/03/25 18:00:55 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+Two Ports: 17128  ,  17140 , Count:  161658
+Two Ports: 17128  ,  17132 , Count:  161789
+Two Ports: 17128  ,  17138 , Count:  161092
+Two Ports: 17128  ,  17130 , Count:  161465
+Two Ports: 17128  ,  17136 , Count:  161594
+Two Ports: 17128  ,  17142 , Count:  127056
+Two Ports: 17128  ,  17134 , Count:  127268
+Two Ports: 17140  ,  17132 , Count:  161640
+Two Ports: 17140  ,  17138 , Count:  161398
+Two Ports: 17140  ,  17130 , Count:  161650
+Two Ports: 17140  ,  17136 , Count:  161317
+Two Ports: 17140  ,  17142 , Count:  127109
+Two Ports: 17140  ,  17134 , Count:  126779
+Two Ports: 17132  ,  17138 , Count:  161523
+Two Ports: 17132  ,  17130 , Count:  161804
+Two Ports: 17132  ,  17136 , Count:  161342
+Two Ports: 17132  ,  17142 , Count:  126900
+Two Ports: 17132  ,  17134 , Count:  127223
+Two Ports: 17138  ,  17130 , Count:  161330
+Two Ports: 17138  ,  17136 , Count:  160708
+Two Ports: 17138  ,  17142 , Count:  126693
+Two Ports: 17138  ,  17134 , Count:  126903
+Two Ports: 17130  ,  17136 , Count:  161084
+Two Ports: 17130  ,  17142 , Count:  126871
+Two Ports: 17130  ,  17134 , Count:  127436
+Two Ports: 17136  ,  17142 , Count:  126277
+Two Ports: 17136  ,  17134 , Count:  127077
+Two Ports: 23  ,  80 , Count:  103910
+Two Ports: 23  ,  8080 , Count:  104105
+Two Ports: 23  ,  2323 , Count:  43210
+Two Ports: 23  ,  81 , Count:  35161
+Two Ports: 17142  ,  17134 , Count:  103802
+Two Ports: 80  ,  8080 , Count:  125685
+Two Ports: 80  ,  2323 , Count:  44488
+Two Ports: 80  ,  5555 , Count:  39188
+Two Ports: 80  ,  81 , Count:  39664
+Two Ports: 80  ,  1023 , Count:  39947
+Two Ports: 80  ,  52869 , Count:  38898
+Two Ports: 80  ,  8443 , Count:  38820
+Two Ports: 80  ,  49152 , Count:  38888
+Two Ports: 80  ,  7574 , Count:  38194
+Two Ports: 80  ,  37215 , Count:  37902
+Two Ports: 8080  ,  2323 , Count:  44326
+Two Ports: 8080  ,  5555 , Count:  38825
+Two Ports: 8080  ,  81 , Count:  39198
+Two Ports: 8080  ,  1023 , Count:  39511
+Two Ports: 8080  ,  52869 , Count:  38584
+Two Ports: 8080  ,  8443 , Count:  38479
+Two Ports: 8080  ,  49152 , Count:  38598
+Two Ports: 8080  ,  7574 , Count:  37852
+Two Ports: 8080  ,  37215 , Count:  37530
+Two Ports: 2323  ,  5555 , Count:  36787
+Two Ports: 2323  ,  81 , Count:  37221
+Two Ports: 2323  ,  1023 , Count:  39450
+Two Ports: 2323  ,  52869 , Count:  36747
+Two Ports: 2323  ,  8443 , Count:  36689
+Two Ports: 2323  ,  49152 , Count:  36809
+Two Ports: 2323  ,  7574 , Count:  36163
+Two Ports: 2323  ,  37215 , Count:  36649
+Two Ports: 5555  ,  81 , Count:  34430
+Two Ports: 5555  ,  1023 , Count:  34666
+Two Ports: 5555  ,  52869 , Count:  34423
+Two Ports: 5555  ,  8443 , Count:  34394
+Two Ports: 5555  ,  49152 , Count:  34422
+Two Ports: 5555  ,  7574 , Count:  33697
+Two Ports: 5555  ,  37215 , Count:  33512
+Two Ports: 81  ,  1023 , Count:  34896
+Two Ports: 81  ,  52869 , Count:  34409
+Two Ports: 81  ,  8443 , Count:  34468
+Two Ports: 81  ,  49152 , Count:  34549
+Two Ports: 81  ,  7574 , Count:  33866
+Two Ports: 81  ,  37215 , Count:  33661
+Two Ports: 1023  ,  52869 , Count:  34562
+Two Ports: 1023  ,  8443 , Count:  34607
+Two Ports: 1023  ,  49152 , Count:  34743
+Two Ports: 1023  ,  7574 , Count:  34091
+Two Ports: 1023  ,  37215 , Count:  33728
+Two Ports: 52869  ,  8443 , Count:  34289
+Two Ports: 52869  ,  49152 , Count:  34417
+Two Ports: 52869  ,  7574 , Count:  33764
+Two Ports: 52869  ,  37215 , Count:  33513
+Two Ports: 8443  ,  49152 , Count:  34422
+Two Ports: 8443  ,  7574 , Count:  33739
+Two Ports: 8443  ,  37215 , Count:  33446
+Two Ports: 49152  ,  7574 , Count:  33859
+Two Ports: 49152  ,  37215 , Count:  33637
+Two Ports: 7574  ,  37215 , Count:  33023
+Three Ports: 17128  ,  17140  ,  17132 , Count:  125282
+Three Ports: 17128  ,  17140  ,  17138 , Count:  124799
+Three Ports: 17128  ,  17140  ,  17130 , Count:  125015
+Three Ports: 17128  ,  17140  ,  17136 , Count:  125168
+Three Ports: 17128  ,  17140  ,  17142 , Count:  104189
+Three Ports: 17128  ,  17140  ,  17134 , Count:  104167
+Three Ports: 17128  ,  17132  ,  17138 , Count:  124961
+Three Ports: 17128  ,  17132  ,  17130 , Count:  125255
+Three Ports: 17128  ,  17132  ,  17136 , Count:  125204
+Three Ports: 17128  ,  17132  ,  17142 , Count:  104171
+Three Ports: 17128  ,  17132  ,  17134 , Count:  104444
+Three Ports: 17128  ,  17138  ,  17130 , Count:  124692
+Three Ports: 17128  ,  17138  ,  17136 , Count:  124801
+Three Ports: 17128  ,  17138  ,  17142 , Count:  103915
+Three Ports: 17128  ,  17138  ,  17134 , Count:  104207
+Three Ports: 17128  ,  17130  ,  17136 , Count:  124938
+Three Ports: 17128  ,  17130  ,  17142 , Count:  104077
+Three Ports: 17128  ,  17130  ,  17134 , Count:  104376
+Three Ports: 17128  ,  17136  ,  17142 , Count:  103957
+Three Ports: 17128  ,  17136  ,  17134 , Count:  104367
+Three Ports: 17128  ,  17142  ,  17134 , Count:  89182
+Three Ports: 17140  ,  17132  ,  17138 , Count:  124963
+Three Ports: 17140  ,  17132  ,  17130 , Count:  125265
+Three Ports: 17140  ,  17132  ,  17136 , Count:  124992
+Three Ports: 17140  ,  17132  ,  17142 , Count:  104101
+Three Ports: 17140  ,  17132  ,  17134 , Count:  104136
+Three Ports: 17140  ,  17138  ,  17130 , Count:  124932
+Three Ports: 17140  ,  17138  ,  17136 , Count:  124584
+Three Ports: 17140  ,  17138  ,  17142 , Count:  103967
+Three Ports: 17140  ,  17138  ,  17134 , Count:  103915
+Three Ports: 17140  ,  17130  ,  17136 , Count:  124965
+Three Ports: 17140  ,  17130  ,  17142 , Count:  104107
+Three Ports: 17140  ,  17130  ,  17134 , Count:  104150
+Three Ports: 17140  ,  17136  ,  17142 , Count:  103750
+Three Ports: 17140  ,  17136  ,  17134 , Count:  103976
+Three Ports: 17140  ,  17142  ,  17134 , Count:  88976
+Three Ports: 17132  ,  17138  ,  17130 , Count:  125090
+Three Ports: 17132  ,  17138  ,  17136 , Count:  124784
+Three Ports: 17132  ,  17138  ,  17142 , Count:  104019
+Three Ports: 17132  ,  17138  ,  17134 , Count:  104291
+Three Ports: 17132  ,  17130  ,  17136 , Count:  125123
+Three Ports: 17132  ,  17130  ,  17142 , Count:  103996
+Three Ports: 17132  ,  17130  ,  17134 , Count:  104525
+Three Ports: 17132  ,  17136  ,  17142 , Count:  103754
+Three Ports: 17132  ,  17136  ,  17134 , Count:  104341
+Three Ports: 17132  ,  17142  ,  17134 , Count:  89258
+Three Ports: 17138  ,  17130  ,  17136 , Count:  124600
+Three Ports: 17138  ,  17130  ,  17142 , Count:  103815
+Three Ports: 17138  ,  17130  ,  17134 , Count:  104322
+Three Ports: 17138  ,  17136  ,  17142 , Count:  103493
+Three Ports: 17138  ,  17136  ,  17134 , Count:  104031
+Three Ports: 17138  ,  17142  ,  17134 , Count:  89100
+Three Ports: 17130  ,  17136  ,  17142 , Count:  103668
+Three Ports: 17130  ,  17136  ,  17134 , Count:  104258
+Three Ports: 17130  ,  17142  ,  17134 , Count:  89142
+Three Ports: 17136  ,  17142  ,  17134 , Count:  88958
+Three Ports: 23  ,  80  ,  8080 , Count:  98897
+Three Ports: 23  ,  80  ,  2323 , Count:  30495
+Three Ports: 23  ,  8080  ,  2323 , Count:  30361
+Three Ports: 80  ,  8080  ,  2323 , Count:  42546
+Three Ports: 80  ,  8080  ,  5555 , Count:  38297
+Three Ports: 80  ,  8080  ,  81 , Count:  38643
+Three Ports: 80  ,  8080  ,  1023 , Count:  38901
+Three Ports: 80  ,  8080  ,  52869 , Count:  38117
+Three Ports: 80  ,  8080  ,  8443 , Count:  37973
+Three Ports: 80  ,  8080  ,  49152 , Count:  38117
+Three Ports: 80  ,  8080  ,  7574 , Count:  37400
+Three Ports: 80  ,  8080  ,  37215 , Count:  37090
+Three Ports: 80  ,  2323  ,  5555 , Count:  36239
+Three Ports: 80  ,  2323  ,  81 , Count:  36546
+Three Ports: 80  ,  2323  ,  1023 , Count:  38610
+Three Ports: 80  ,  2323  ,  52869 , Count:  36197
+Three Ports: 80  ,  2323  ,  8443 , Count:  36135
+Three Ports: 80  ,  2323  ,  49152 , Count:  36271
+Three Ports: 80  ,  2323  ,  7574 , Count:  35628
+Three Ports: 80  ,  2323  ,  37215 , Count:  36137
+Three Ports: 80  ,  5555  ,  81 , Count:  34187
+Three Ports: 80  ,  5555  ,  1023 , Count:  34380
+Three Ports: 80  ,  5555  ,  52869 , Count:  34185
+Three Ports: 80  ,  5555  ,  8443 , Count:  34098
+Three Ports: 80  ,  5555  ,  49152 , Count:  34178
+Three Ports: 80  ,  5555  ,  7574 , Count:  33465
+Three Ports: 80  ,  5555  ,  37215 , Count:  33288
+Three Ports: 80  ,  81  ,  1023 , Count:  34596
+Three Ports: 80  ,  81  ,  52869 , Count:  34185
+Three Ports: 80  ,  81  ,  8443 , Count:  34188
+Three Ports: 80  ,  81  ,  49152 , Count:  34314
+Three Ports: 80  ,  81  ,  7574 , Count:  33636
+Three Ports: 80  ,  81  ,  37215 , Count:  33434
+Three Ports: 80  ,  1023  ,  52869 , Count:  34278
+Three Ports: 80  ,  1023  ,  8443 , Count:  34316
+Three Ports: 80  ,  1023  ,  49152 , Count:  34452
+Three Ports: 80  ,  1023  ,  7574 , Count:  33794
+Three Ports: 80  ,  1023  ,  37215 , Count:  33442
+Three Ports: 80  ,  52869  ,  8443 , Count:  34044
+Three Ports: 80  ,  52869  ,  49152 , Count:  34193
+Three Ports: 80  ,  52869  ,  7574 , Count:  33547
+Three Ports: 80  ,  52869  ,  37215 , Count:  33298
+Three Ports: 80  ,  8443  ,  49152 , Count:  34172
+Three Ports: 80  ,  8443  ,  7574 , Count:  33503
+Three Ports: 80  ,  8443  ,  37215 , Count:  33226
+Three Ports: 80  ,  49152  ,  7574 , Count:  33636
+Three Ports: 80  ,  49152  ,  37215 , Count:  33422
+Three Ports: 80  ,  7574  ,  37215 , Count:  32802
+Three Ports: 8080  ,  2323  ,  5555 , Count:  35973
+Three Ports: 8080  ,  2323  ,  81 , Count:  36259
+Three Ports: 8080  ,  2323  ,  1023 , Count:  38191
+Three Ports: 8080  ,  2323  ,  52869 , Count:  35910
+Three Ports: 8080  ,  2323  ,  8443 , Count:  35864
+Three Ports: 8080  ,  2323  ,  49152 , Count:  36040
+Three Ports: 8080  ,  2323  ,  7574 , Count:  35321
+Three Ports: 8080  ,  2323  ,  37215 , Count:  35835
+Three Ports: 8080  ,  5555  ,  81 , Count:  34017
+Three Ports: 8080  ,  5555  ,  1023 , Count:  34167
+Three Ports: 8080  ,  5555  ,  52869 , Count:  34044
+Three Ports: 8080  ,  5555  ,  8443 , Count:  33938
+Three Ports: 8080  ,  5555  ,  49152 , Count:  34047
+Three Ports: 8080  ,  5555  ,  7574 , Count:  33287
+Three Ports: 8080  ,  5555  ,  37215 , Count:  33116
+Three Ports: 8080  ,  81  ,  1023 , Count:  34368
+Three Ports: 8080  ,  81  ,  52869 , Count:  34008
+Three Ports: 8080  ,  81  ,  8443 , Count:  34047
+Three Ports: 8080  ,  81  ,  49152 , Count:  34156
+Three Ports: 8080  ,  81  ,  7574 , Count:  33476
+Three Ports: 8080  ,  81  ,  37215 , Count:  33261
+Three Ports: 8080  ,  1023  ,  52869 , Count:  34073
+Three Ports: 8080  ,  1023  ,  8443 , Count:  34102
+Three Ports: 8080  ,  1023  ,  49152 , Count:  34250
+Three Ports: 8080  ,  1023  ,  7574 , Count:  33556
+Three Ports: 8080  ,  1023  ,  37215 , Count:  33247
+Three Ports: 8080  ,  52869  ,  8443 , Count:  33915
+Three Ports: 8080  ,  52869  ,  49152 , Count:  34035
+Three Ports: 8080  ,  52869  ,  7574 , Count:  33368
+Three Ports: 8080  ,  52869  ,  37215 , Count:  33143
+Three Ports: 8080  ,  8443  ,  49152 , Count:  34033
+Three Ports: 8080  ,  8443  ,  7574 , Count:  33336
+Three Ports: 8080  ,  8443  ,  37215 , Count:  33075
+Three Ports: 8080  ,  49152  ,  7574 , Count:  33493
+Three Ports: 8080  ,  49152  ,  37215 , Count:  33289
+Three Ports: 8080  ,  7574  ,  37215 , Count:  32636
+Three Ports: 2323  ,  5555  ,  81 , Count:  32282
+Three Ports: 2323  ,  5555  ,  1023 , Count:  33536
+Three Ports: 2323  ,  5555  ,  52869 , Count:  32205
+Three Ports: 2323  ,  5555  ,  8443 , Count:  32163
+Three Ports: 2323  ,  5555  ,  49152 , Count:  32255
+Three Ports: 2323  ,  5555  ,  7574 , Count:  31607
+Three Ports: 2323  ,  5555  ,  37215 , Count:  32186
+Three Ports: 2323  ,  81  ,  1023 , Count:  33748
+Three Ports: 2323  ,  81  ,  52869 , Count:  32251
+Three Ports: 2323  ,  81  ,  8443 , Count:  32259
+Three Ports: 2323  ,  81  ,  49152 , Count:  32376
+Three Ports: 2323  ,  81  ,  7574 , Count:  31733
+Three Ports: 2323  ,  81  ,  37215 , Count:  32296
+Three Ports: 2323  ,  1023  ,  52869 , Count:  33449
+Three Ports: 2323  ,  1023  ,  8443 , Count:  33473
+Three Ports: 2323  ,  1023  ,  49152 , Count:  33605
+Three Ports: 2323  ,  1023  ,  7574 , Count:  32989
+Three Ports: 2323  ,  1023  ,  37215 , Count:  33456
+Three Ports: 2323  ,  52869  ,  8443 , Count:  32126
+Three Ports: 2323  ,  52869  ,  49152 , Count:  32268
+Three Ports: 2323  ,  52869  ,  7574 , Count:  31646
+Three Ports: 2323  ,  52869  ,  37215 , Count:  32163
+Three Ports: 2323  ,  8443  ,  49152 , Count:  32221
+Three Ports: 2323  ,  8443  ,  7574 , Count:  31604
+Three Ports: 2323  ,  8443  ,  37215 , Count:  32089
+Three Ports: 2323  ,  49152  ,  7574 , Count:  31730
+Three Ports: 2323  ,  49152  ,  37215 , Count:  32282
+Three Ports: 2323  ,  7574  ,  37215 , Count:  31688
+Three Ports: 5555  ,  81  ,  1023 , Count:  31039
+Three Ports: 5555  ,  81  ,  52869 , Count:  31113
+Three Ports: 5555  ,  81  ,  8443 , Count:  31157
+Three Ports: 5555  ,  81  ,  49152 , Count:  31233
+Three Ports: 5555  ,  81  ,  7574 , Count:  30594
+Three Ports: 5555  ,  81  ,  37215 , Count:  30428
+Three Ports: 5555  ,  1023  ,  52869 , Count:  30908
+Three Ports: 5555  ,  1023  ,  8443 , Count:  30960
+Three Ports: 5555  ,  1023  ,  49152 , Count:  31023
+Three Ports: 5555  ,  1023  ,  7574 , Count:  30368
+Three Ports: 5555  ,  1023  ,  37215 , Count:  30148
+Three Ports: 5555  ,  52869  ,  8443 , Count:  31054
+Three Ports: 5555  ,  52869  ,  49152 , Count:  31139
+Three Ports: 5555  ,  52869  ,  7574 , Count:  30537
+Three Ports: 5555  ,  52869  ,  37215 , Count:  30356
+Three Ports: 5555  ,  8443  ,  49152 , Count:  31184
+Three Ports: 5555  ,  8443  ,  7574 , Count:  30492
+Three Ports: 5555  ,  8443  ,  37215 , Count:  30342
+Three Ports: 5555  ,  49152  ,  7574 , Count:  30587
+Three Ports: 5555  ,  49152  ,  37215 , Count:  30428
+Three Ports: 81  ,  1023  ,  52869 , Count:  30971
+Three Ports: 81  ,  1023  ,  8443 , Count:  31000
+Three Ports: 81  ,  1023  ,  49152 , Count:  31076
+Three Ports: 81  ,  1023  ,  7574 , Count:  30491
+Three Ports: 81  ,  1023  ,  37215 , Count:  30240
+Three Ports: 81  ,  52869  ,  8443 , Count:  31115
+Three Ports: 81  ,  52869  ,  49152 , Count:  31223
+Three Ports: 81  ,  52869  ,  7574 , Count:  30649
+Three Ports: 81  ,  52869  ,  37215 , Count:  30465
+Three Ports: 81  ,  8443  ,  49152 , Count:  31266
+Three Ports: 81  ,  8443  ,  7574 , Count:  30595
+Three Ports: 81  ,  8443  ,  37215 , Count:  30431
+Three Ports: 81  ,  49152  ,  7574 , Count:  30675
+Three Ports: 81  ,  49152  ,  37215 , Count:  30533
+Three Ports: 1023  ,  52869  ,  8443 , Count:  30884
+Three Ports: 1023  ,  52869  ,  49152 , Count:  30973
+Three Ports: 1023  ,  52869  ,  7574 , Count:  30406
+Three Ports: 1023  ,  52869  ,  37215 , Count:  30133
+Three Ports: 1023  ,  8443  ,  49152 , Count:  30996
+Three Ports: 1023  ,  8443  ,  7574 , Count:  30364
+Three Ports: 1023  ,  8443  ,  37215 , Count:  30055
+Three Ports: 1023  ,  49152  ,  7574 , Count:  30483
+Three Ports: 1023  ,  49152  ,  37215 , Count:  30248
+Three Ports: 52869  ,  8443  ,  49152 , Count:  31136
+Three Ports: 52869  ,  8443  ,  7574 , Count:  30544
+Three Ports: 52869  ,  8443  ,  37215 , Count:  30309
+Three Ports: 52869  ,  49152  ,  7574 , Count:  30669
+Three Ports: 52869  ,  49152  ,  37215 , Count:  30519
+Three Ports: 8443  ,  49152  ,  7574 , Count:  30620
+Three Ports: 8443  ,  49152  ,  37215 , Count:  30432
+25/03/25 18:19:35 INFO Worker: Asked to kill executor app-20250325180054-0000/0
+25/03/25 18:19:35 INFO ExecutorRunner: Runner thread for executor app-20250325180054-0000/0 interrupted
+25/03/25 18:19:35 INFO ExecutorRunner: Killing process!
+25/03/25 18:19:35 INFO Worker: Executor app-20250325180054-0000/0 finished with state KILLED exitStatus 143
+25/03/25 18:19:35 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 0
+25/03/25 18:19:35 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250325180054-0000, execId=0)
+25/03/25 18:19:35 INFO Worker: Cleaning up local directories for application app-20250325180054-0000
+25/03/25 18:19:35 INFO ExternalShuffleBlockResolver: Application app-20250325180054-0000 removed, cleanupLocalDirs = true
+SPARK_MASTER_HOST=p-bc-5019
+SPARK_MASTER_PORT=7077
+
+real	19m7.936s
+user	2m18.193s
+sys	0m8.698s
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 35874935.0 ON p-bc-5019 CANCELLED AT 2025-03-25T21:52:13 DUE TO TIME LIMIT ***
+25/03/25 21:52:13 ERROR Worker: RECEIVED SIGNAL TERM
+25/03/25 21:52:13 INFO ShutdownHookManager: Shutdown hook called
+25/03/25 21:52:13 INFO ShutdownHookManager: Deleting directory /tmp/spark-cf795f99-be2f-4559-85df-52f448a8115c

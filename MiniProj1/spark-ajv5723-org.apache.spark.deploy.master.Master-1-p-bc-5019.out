@@ -1,0 +1,29 @@
+Spark Command: /usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java -cp /storage/work/ajv5723/MiniProj1/conf:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host p-bc-5019 --port 7077 --webui-port 8080
+========================================
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/03/25 18:00:32 INFO Master: Started daemon with process name: 230037@p-bc-5019
+25/03/25 18:00:32 INFO SignalUtils: Registering signal handler for TERM
+25/03/25 18:00:32 INFO SignalUtils: Registering signal handler for HUP
+25/03/25 18:00:32 INFO SignalUtils: Registering signal handler for INT
+25/03/25 18:00:32 WARN MasterArguments: SPARK_MASTER_IP is deprecated, please use SPARK_MASTER_HOST
+25/03/25 18:00:33 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/03/25 18:00:33 INFO SecurityManager: Changing view acls to: ajv5723
+25/03/25 18:00:33 INFO SecurityManager: Changing modify acls to: ajv5723
+25/03/25 18:00:33 INFO SecurityManager: Changing view acls groups to: 
+25/03/25 18:00:33 INFO SecurityManager: Changing modify acls groups to: 
+25/03/25 18:00:33 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/03/25 18:00:33 INFO Utils: Successfully started service 'sparkMaster' on port 7077.
+25/03/25 18:00:33 INFO Master: Starting Spark master at spark://p-bc-5019:7077
+25/03/25 18:00:33 INFO Master: Running Spark version 3.3.0
+25/03/25 18:00:34 INFO Utils: Successfully started service 'MasterUI' on port 8080.
+25/03/25 18:00:34 INFO MasterWebUI: Bound MasterWebUI to 0.0.0.0, and started at http://p-bc-5019.2e.hpc.psu.edu:8080
+25/03/25 18:00:34 INFO Master: I have been elected leader! New state: ALIVE
+25/03/25 18:00:38 INFO Master: Registering worker 10.6.8.29:37119 with 2 cores, 7.0 GiB RAM
+25/03/25 18:00:54 INFO Master: Registering app Mini Project #1 Freqent Port Sets Mining
+25/03/25 18:00:54 INFO Master: Registered app Mini Project #1 Freqent Port Sets Mining with ID app-20250325180054-0000
+25/03/25 18:00:54 INFO Master: Launching executor app-20250325180054-0000/0 on worker worker-20250325180038-10.6.8.29-37119
+25/03/25 18:19:35 INFO Master: Received unregister request from application app-20250325180054-0000
+25/03/25 18:19:35 INFO Master: Removing app app-20250325180054-0000
+25/03/25 18:19:35 INFO Master: 10.6.8.29:37084 got disassociated, removing it.
+25/03/25 18:19:35 INFO Master: p-bc-5019.2e.hpc.psu.edu:34821 got disassociated, removing it.
+25/03/25 18:19:35 WARN Master: Got status update for unknown executor app-20250325180054-0000/0
