@@ -1,0 +1,5 @@
+Lab 3: Counting Hashtag and Users Mentioned in Tweets
+The goals of this lab are for you to be able to
+- Use the RDD transformations filter and sortBy.
+- Compute hashtag counts and Twitter users mentioned in an input data file containing tweets.
+- Apply the obove to compute hashtag counts and Twitter users mentioned in the input tweets related to Boston Marathon Bombing (gathered on April 17, 2013, two days after the domestic terrorist attack)
