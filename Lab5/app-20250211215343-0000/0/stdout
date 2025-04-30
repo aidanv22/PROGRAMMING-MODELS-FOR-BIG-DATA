@@ -1,0 +1,5 @@
+25/02/11 21:53:46 INFO CoarseGrainedExecutorBackend: Started daemon with process name: 1396205@p-bc-5021
+25/02/11 21:53:46 INFO SignalUtils: Registering signal handler for TERM
+25/02/11 21:53:46 INFO SignalUtils: Registering signal handler for HUP
+25/02/11 21:53:46 INFO SignalUtils: Registering signal handler for INT
+25/02/11 21:53:47 ERROR CoarseGrainedExecutorBackend: RECEIVED SIGNAL T
