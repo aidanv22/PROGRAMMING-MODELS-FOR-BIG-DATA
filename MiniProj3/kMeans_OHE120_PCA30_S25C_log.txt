@@ -1,0 +1,790 @@
+/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/sbin/start-master.sh
+starting org.apache.spark.deploy.master.Master, logging to /storage/work/ajv5723/MiniProj3/spark-ajv5723-org.apache.spark.deploy.master.Master-1-p-bc-5061.out
+/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/bin/spark-class org.apache.spark.deploy.worker.Worker --work-dir /storage/work/ajv5723/MiniProj3 spark://p-bc-5061:7077
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/04/07 19:27:47 INFO Worker: Started daemon with process name: 1135999@p-bc-5069
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for TERM
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for HUP
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for INT
+25/04/07 19:27:47 INFO Worker: Started daemon with process name: 1432373@p-bc-5061
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for TERM
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for HUP
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for INT
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/04/07 19:27:47 INFO Worker: Started daemon with process name: 604524@p-bc-5064
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for TERM
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for HUP
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for INT
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/04/07 19:27:47 INFO Worker: Started daemon with process name: 329065@p-bc-5065
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for TERM
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for HUP
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for INT
+Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties
+25/04/07 19:27:47 INFO Worker: Started daemon with process name: 2836759@p-bc-5066
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for TERM
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for HUP
+25/04/07 19:27:47 INFO SignalUtils: Registering signal handler for INT
+25/04/07 19:27:47 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/04/07 19:27:47 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/07 19:27:47 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/07 19:27:47 INFO SecurityManager: Changing view acls groups to: 
+25/04/07 19:27:47 INFO SecurityManager: Changing modify acls groups to: 
+25/04/07 19:27:47 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/07 19:27:47 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/04/07 19:27:47 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/04/07 19:27:47 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/04/07 19:27:47 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/07 19:27:47 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/07 19:27:47 INFO SecurityManager: Changing view acls groups to: 
+25/04/07 19:27:47 INFO SecurityManager: Changing modify acls groups to: 
+25/04/07 19:27:47 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/07 19:27:47 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/07 19:27:47 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/07 19:27:47 INFO SecurityManager: Changing view acls groups to: 
+25/04/07 19:27:47 INFO SecurityManager: Changing modify acls groups to: 
+25/04/07 19:27:47 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/07 19:27:47 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/07 19:27:47 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/07 19:27:47 INFO SecurityManager: Changing view acls groups to: 
+25/04/07 19:27:47 INFO SecurityManager: Changing modify acls groups to: 
+25/04/07 19:27:47 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/07 19:27:47 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/04/07 19:27:47 INFO Utils: Successfully started service 'sparkWorker' on port 44095.
+25/04/07 19:27:47 INFO Worker: Worker decommissioning not enabled.
+25/04/07 19:27:48 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/07 19:27:48 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/07 19:27:48 INFO SecurityManager: Changing view acls groups to: 
+25/04/07 19:27:48 INFO SecurityManager: Changing modify acls groups to: 
+25/04/07 19:27:48 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/07 19:27:48 INFO Utils: Successfully started service 'sparkWorker' on port 43891.
+25/04/07 19:27:48 INFO Worker: Worker decommissioning not enabled.
+25/04/07 19:27:48 INFO Worker: Starting Spark worker 10.6.8.79:44095 with 2 cores, 7.0 GiB RAM
+25/04/07 19:27:48 INFO Worker: Running Spark version 3.3.0
+25/04/07 19:27:48 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/04/07 19:27:48 INFO Utils: Successfully started service 'sparkWorker' on port 34741.
+25/04/07 19:27:48 INFO Worker: Worker decommissioning not enabled.
+25/04/07 19:27:48 INFO ResourceUtils: ==============================================================
+25/04/07 19:27:48 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/04/07 19:27:48 INFO ResourceUtils: ==============================================================
+25/04/07 19:27:48 INFO Utils: Successfully started service 'sparkWorker' on port 35757.
+25/04/07 19:27:48 INFO Worker: Worker decommissioning not enabled.
+25/04/07 19:27:48 INFO Worker: Starting Spark worker 10.6.8.75:43891 with 2 cores, 7.0 GiB RAM
+25/04/07 19:27:48 INFO Worker: Running Spark version 3.3.0
+25/04/07 19:27:48 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/04/07 19:27:48 INFO ResourceUtils: ==============================================================
+25/04/07 19:27:48 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/04/07 19:27:48 INFO ResourceUtils: ==============================================================
+25/04/07 19:27:48 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/04/07 19:27:48 INFO Worker: Starting Spark worker 10.6.8.74:34741 with 2 cores, 7.0 GiB RAM
+25/04/07 19:27:48 INFO Worker: Running Spark version 3.3.0
+25/04/07 19:27:48 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/04/07 19:27:48 INFO ResourceUtils: ==============================================================
+25/04/07 19:27:48 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/04/07 19:27:48 INFO ResourceUtils: ==============================================================
+25/04/07 19:27:48 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5069.2e.hpc.psu.edu:8081
+25/04/07 19:27:48 INFO Utils: Successfully started service 'sparkWorker' on port 35003.
+25/04/07 19:27:48 INFO Worker: Worker decommissioning not enabled.
+25/04/07 19:27:48 INFO Worker: Connecting to master p-bc-5061:7077...
+25/04/07 19:27:48 WARN Utils: Service 'WorkerUI' could not bind on port 8081. Attempting port 8082.
+25/04/07 19:27:48 INFO Utils: Successfully started service 'WorkerUI' on port 8082.
+25/04/07 19:27:48 INFO TransportClientFactory: Successfully created connection to p-bc-5061/10.6.8.71:7077 after 34 ms (0 ms spent in bootstraps)
+25/04/07 19:27:48 INFO Worker: Starting Spark worker 10.6.8.71:35757 with 2 cores, 7.0 GiB RAM
+25/04/07 19:27:48 INFO Worker: Running Spark version 3.3.0
+25/04/07 19:27:48 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/04/07 19:27:48 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5065.2e.hpc.psu.edu:8082
+25/04/07 19:27:48 INFO Worker: Connecting to master p-bc-5061:7077...
+25/04/07 19:27:48 INFO ResourceUtils: ==============================================================
+25/04/07 19:27:48 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/04/07 19:27:48 INFO ResourceUtils: ==============================================================
+25/04/07 19:27:48 INFO Worker: Starting Spark worker 10.6.8.76:35003 with 2 cores, 7.0 GiB RAM
+25/04/07 19:27:48 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/04/07 19:27:48 INFO Worker: Running Spark version 3.3.0
+25/04/07 19:27:48 INFO Worker: Spark home: /storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3
+25/04/07 19:27:48 INFO ResourceUtils: ==============================================================
+25/04/07 19:27:48 INFO ResourceUtils: No custom resources configured for spark.worker.
+25/04/07 19:27:48 INFO ResourceUtils: ==============================================================
+25/04/07 19:27:48 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5064.2e.hpc.psu.edu:8081
+25/04/07 19:27:48 INFO Worker: Connecting to master p-bc-5061:7077...
+25/04/07 19:27:48 INFO Worker: Successfully registered with master spark://p-bc-5061:7077
+25/04/07 19:27:48 INFO TransportClientFactory: Successfully created connection to p-bc-5061/10.6.8.71:7077 after 46 ms (0 ms spent in bootstraps)
+25/04/07 19:27:48 INFO TransportClientFactory: Successfully created connection to p-bc-5061/10.6.8.71:7077 after 31 ms (0 ms spent in bootstraps)
+25/04/07 19:27:48 INFO Worker: Successfully registered with master spark://p-bc-5061:7077
+25/04/07 19:27:48 INFO Worker: Successfully registered with master spark://p-bc-5061:7077
+25/04/07 19:27:48 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/04/07 19:27:48 INFO Utils: Successfully started service 'WorkerUI' on port 8081.
+25/04/07 19:27:48 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5066.2e.hpc.psu.edu:8081
+25/04/07 19:27:48 INFO Worker: Connecting to master p-bc-5061:7077...
+25/04/07 19:27:48 INFO WorkerWebUI: Bound WorkerWebUI to 0.0.0.0, and started at http://p-bc-5061.2e.hpc.psu.edu:8081
+25/04/07 19:27:48 INFO Worker: Connecting to master p-bc-5061:7077...
+25/04/07 19:27:48 INFO TransportClientFactory: Successfully created connection to p-bc-5061/10.6.8.71:7077 after 33 ms (0 ms spent in bootstraps)
+25/04/07 19:27:49 INFO Worker: Successfully registered with master spark://p-bc-5061:7077
+25/04/07 19:27:49 INFO TransportClientFactory: Successfully created connection to p-bc-5061/10.6.8.71:7077 after 50 ms (0 ms spent in bootstraps)
+25/04/07 19:27:49 INFO Worker: Successfully registered with master spark://p-bc-5061:7077
+/storage/icds/RISE/sw8/anaconda/anaconda3/lib/python3.9/site-packages/scipy/__init__.py:146: UserWarning: A NumPy version >=1.16.5 and <1.23.0 is required for this version of SciPy (detected version 1.24.1
+  warnings.warn(f"A NumPy version >={np_minversion} and <{np_maxversion}"
+25/04/07 19:28:09 INFO SparkContext: Running Spark version 3.3.0
+25/04/07 19:28:09 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+25/04/07 19:28:09 INFO ResourceUtils: ==============================================================
+25/04/07 19:28:09 INFO ResourceUtils: No custom resources configured for spark.driver.
+25/04/07 19:28:09 INFO ResourceUtils: ==============================================================
+25/04/07 19:28:09 INFO SparkContext: Submitted application: MiniProject 3 PCA for k-meas Clustering using 120 OHE
+25/04/07 19:28:09 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+25/04/07 19:28:09 INFO ResourceProfile: Limiting resource is cpu
+25/04/07 19:28:09 INFO ResourceProfileManager: Added ResourceProfile id: 0
+25/04/07 19:28:09 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/07 19:28:09 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/07 19:28:09 INFO SecurityManager: Changing view acls groups to: 
+25/04/07 19:28:09 INFO SecurityManager: Changing modify acls groups to: 
+25/04/07 19:28:09 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/07 19:28:09 INFO Utils: Successfully started service 'sparkDriver' on port 41543.
+25/04/07 19:28:09 INFO SparkEnv: Registering MapOutputTracker
+25/04/07 19:28:09 INFO SparkEnv: Registering BlockManagerMaster
+25/04/07 19:28:09 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+25/04/07 19:28:09 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+25/04/07 19:28:09 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+25/04/07 19:28:10 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-7f5df440-2734-4685-9a49-6dba5999eb38
+25/04/07 19:28:10 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+25/04/07 19:28:10 INFO SparkEnv: Registering OutputCommitCoordinator
+25/04/07 19:28:10 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+25/04/07 19:28:10 INFO StandaloneAppClient$ClientEndpoint: Connecting to master spark://p-bc-5061:7077...
+25/04/07 19:28:10 INFO TransportClientFactory: Successfully created connection to p-bc-5061/10.6.8.71:7077 after 33 ms (0 ms spent in bootstraps)
+25/04/07 19:28:10 INFO StandaloneSchedulerBackend: Connected to Spark cluster with app ID app-20250407192810-0000
+25/04/07 19:28:10 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 40453.
+25/04/07 19:28:10 INFO NettyBlockTransferService: Server created on p-bc-5061.2e.hpc.psu.edu:40453
+25/04/07 19:28:10 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+25/04/07 19:28:10 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, p-bc-5061.2e.hpc.psu.edu, 40453, None)
+25/04/07 19:28:10 INFO BlockManagerMasterEndpoint: Registering block manager p-bc-5061.2e.hpc.psu.edu:40453 with 434.4 MiB RAM, BlockManagerId(driver, p-bc-5061.2e.hpc.psu.edu, 40453, None)
+25/04/07 19:28:10 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, p-bc-5061.2e.hpc.psu.edu, 40453, None)
+25/04/07 19:28:10 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, p-bc-5061.2e.hpc.psu.edu, 40453, None)
+25/04/07 19:28:10 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250407192810-0000/0 on worker-20250407192748-10.6.8.76-35003 (10.6.8.76:35003) with 2 core(s)
+25/04/07 19:28:10 INFO StandaloneSchedulerBackend: Granted executor ID app-20250407192810-0000/0 on hostPort 10.6.8.76:35003 with 2 core(s), 1024.0 MiB RAM
+25/04/07 19:28:10 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250407192810-0000/1 on worker-20250407192748-10.6.8.71-35757 (10.6.8.71:35757) with 2 core(s)
+25/04/07 19:28:10 INFO StandaloneSchedulerBackend: Granted executor ID app-20250407192810-0000/1 on hostPort 10.6.8.71:35757 with 2 core(s), 1024.0 MiB RAM
+25/04/07 19:28:10 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250407192810-0000/2 on worker-20250407192748-10.6.8.75-43891 (10.6.8.75:43891) with 2 core(s)
+25/04/07 19:28:10 INFO StandaloneSchedulerBackend: Granted executor ID app-20250407192810-0000/2 on hostPort 10.6.8.75:43891 with 2 core(s), 1024.0 MiB RAM
+25/04/07 19:28:10 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250407192810-0000/3 on worker-20250407192748-10.6.8.74-34741 (10.6.8.74:34741) with 2 core(s)
+25/04/07 19:28:10 INFO StandaloneSchedulerBackend: Granted executor ID app-20250407192810-0000/3 on hostPort 10.6.8.74:34741 with 2 core(s), 1024.0 MiB RAM
+25/04/07 19:28:10 INFO Worker: Asked to launch executor app-20250407192810-0000/0 for MiniProject 3 PCA for k-meas Clustering using 120 OHE
+25/04/07 19:28:10 INFO StandaloneAppClient$ClientEndpoint: Executor added: app-20250407192810-0000/4 on worker-20250407192747-10.6.8.79-44095 (10.6.8.79:44095) with 2 core(s)
+25/04/07 19:28:10 INFO StandaloneSchedulerBackend: Granted executor ID app-20250407192810-0000/4 on hostPort 10.6.8.79:44095 with 2 core(s), 1024.0 MiB RAM
+25/04/07 19:28:10 INFO Worker: Asked to launch executor app-20250407192810-0000/1 for MiniProject 3 PCA for k-meas Clustering using 120 OHE
+25/04/07 19:28:10 INFO Worker: Asked to launch executor app-20250407192810-0000/2 for MiniProject 3 PCA for k-meas Clustering using 120 OHE
+25/04/07 19:28:10 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/07 19:28:10 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/07 19:28:10 INFO SecurityManager: Changing view acls groups to: 
+25/04/07 19:28:10 INFO SecurityManager: Changing modify acls groups to: 
+25/04/07 19:28:10 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/07 19:28:10 INFO Worker: Asked to launch executor app-20250407192810-0000/3 for MiniProject 3 PCA for k-meas Clustering using 120 OHE
+25/04/07 19:28:10 INFO Worker: Asked to launch executor app-20250407192810-0000/4 for MiniProject 3 PCA for k-meas Clustering using 120 OHE
+25/04/07 19:28:10 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/conf/:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=41543" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5061.2e.hpc.psu.edu:41543" "--executor-id" "0" "--hostname" "10.6.8.76" "--cores" "2" "--app-id" "app-20250407192810-0000" "--worker-url" "spark://Worker@10.6.8.76:35003"
+25/04/07 19:28:10 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/07 19:28:10 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/07 19:28:10 INFO SecurityManager: Changing view acls groups to: 
+25/04/07 19:28:10 INFO SecurityManager: Changing modify acls groups to: 
+25/04/07 19:28:10 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/07 19:28:11 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/07 19:28:11 INFO SecurityManager: Changing view acls to: ajv5723
+25/04/07 19:28:11 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/07 19:28:11 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/07 19:28:11 INFO SecurityManager: Changing view acls groups to: 
+25/04/07 19:28:11 INFO SecurityManager: Changing view acls groups to: 
+25/04/07 19:28:11 INFO SecurityManager: Changing modify acls groups to: 
+25/04/07 19:28:11 INFO SecurityManager: Changing modify acls groups to: 
+25/04/07 19:28:11 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/07 19:28:11 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/07 19:28:11 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/conf/:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=41543" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UN25/04/07 19:28:11 INFO SecurityManager: Changing view acls to: ajv5723
+NAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5061.2e.hpc.psu.edu:41543" "--executor-id" "2" "--hostname" "10.6.8.75" "--cores" "2" "--app-id" "app-20250407192810-0000" "--worker-url" "spark://Worker@10.6.8.75:43891"
+25/04/07 19:28:11 INFO SecurityManager: Changing modify acls to: ajv5723
+25/04/07 19:28:11 INFO SecurityManager: Changing view acls groups to: 
+25/04/07 19:28:11 INFO SecurityManager: Changing modify acls groups to: 
+25/04/07 19:28:11 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ajv5723); groups with view permissions: Set(); users  with modify permissions: Set(ajv5723); groups with modify permissions: Set()
+25/04/07 19:28:11 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/conf/:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=41543" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UN25/04/07 19:28:11 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/conf/:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=41543" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5061.2e.hpc.psu.edu:41543" "--executor-id" "3" "--hostname" "10.6.8.74" "--cores" "2" "--app-id" "app-20250407192810-0000" "--worker-url" "spark://Worker@10.6.8.74:34741"
+NAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5061.2e.hpc.psu.edu:41543" "--executor-id" "4" "--hostname" "10.6.8.79" "--cores" "2" "--app-id" "app-20250407192810-0000" "--worker-url" "spark://Worker@10.6.8.79:44095"
+25/04/07 19:28:11 INFO ExecutorRunner: Launch command: "/usr/lib/jvm/java-11-openjdk-11.0.25.0.9-2.el8.x86_64/bin/java" "-cp" "/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/conf/:/storage/icds/RISE/sw8/spark-3.3.0-bin-hadoop3/jars/*" "-Xmx1024M" "-Dspark.driver.port=41543" "-XX:+IgnoreUnrecognizedVMOptions" "--add-opens=java.base/java.lang=ALL-UNNAMED" "--add-opens=java.base/java.lang.invoke=ALL-UNNAMED" "--add-opens=java.base/java.lang.reflect=ALL-UNNAMED" "--add-opens=java.base/java.io=ALL-UNNAMED" "--add-opens=java.base/java.net=ALL-UNNAMED" "--add-opens=java.base/java.nio=ALL-UNNAMED" "--add-opens=java.base/java.util=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent=ALL-UNNAMED" "--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED" "--add-opens=java.base/sun.nio.ch=ALL-UNNAMED" "--add-opens=java.base/sun.nio.cs=ALL-UNNAMED" "--add-opens=java.base/sun.security.action=ALL-UNNAMED" "--add-opens=java.base/sun.util.calendar=ALL-UNNAMED" "--add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@p-bc-5061.2e.hpc.psu.edu:41543" "--executor-id" "1" "--hostname" "10.6.8.71" "--cores" "2" "--app-id" "app-20250407192810-0000" "--worker-url" "spark://Worker@10.6.8.71:35757"
+25/04/07 19:28:11 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250407192810-0000/0 is now RUNNING
+25/04/07 19:28:11 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250407192810-0000/2 is now RUNNING
+25/04/07 19:28:11 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250407192810-0000/4 is now RUNNING
+25/04/07 19:28:11 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250407192810-0000/3 is now RUNNING
+25/04/07 19:28:11 INFO StandaloneAppClient$ClientEndpoint: Executor updated: app-20250407192810-0000/1 is now RUNNING
+25/04/07 19:28:11 INFO StandaloneSchedulerBackend: SchedulerBackend is ready for scheduling beginning after reached minRegisteredResourcesRatio: 0.0
+root
+ |-- _c0: integer (nullable = true)
+ |-- id: integer (nullable = true)
+ |-- numports: integer (nullable = true)
+ |-- lifetime: double (nullable = true)
+ |-- Bytes: long (nullable = true)
+ |-- Packets: integer (nullable = true)
+ |-- average_packetsize: integer (nullable = true)
+ |-- MinUniqueDests: integer (nullable = true)
+ |-- MaxUniqueDests: integer (nullable = true)
+ |-- MinUniqueDest24s: integer (nullable = true)
+ |-- MaxUniqueDest24s: integer (nullable = true)
+ |-- average_lifetime: double (nullable = true)
+ |-- mirai: boolean (nullable = true)
+ |-- zmap: boolean (nullable = true)
+ |-- masscan: boolean (nullable = true)
+ |-- country: string (nullable = true)
+ |-- traffic_types_scanned_str: string (nullable = true)
+ |-- ports_scanned_str: string (nullable = true)
+ |-- host_tags_per_censys: string (nullable = true)
+ |-- host_services_per_censys: string (nullable = true)
+
++--------+-----+
+|numports|count|
++--------+-----+
+|     471|    2|
+|     463|    2|
+|      31|  271|
++--------+-----+
+only showing top 3 rows
+
++-------------+
+|max(numports)|
++-------------+
+|        36423|
++-------------+
+
++-----------------+
+|ports_scanned_str|
++-----------------+
+|      17134-17142|
+|       23-80-8080|
+|       23-80-8080|
+|       23-80-8080|
++-----------------+
+only showing top 4 rows
+
+root
+ |-- _c0: integer (nullable = true)
+ |-- id: integer (nullable = true)
+ |-- numports: integer (nullable = true)
+ |-- lifetime: double (nullable = true)
+ |-- Bytes: long (nullable = true)
+ |-- Packets: integer (nullable = true)
+ |-- average_packetsize: integer (nullable = true)
+ |-- MinUniqueDests: integer (nullable = true)
+ |-- MaxUniqueDests: integer (nullable = true)
+ |-- MinUniqueDest24s: integer (nullable = true)
+ |-- MaxUniqueDest24s: integer (nullable = true)
+ |-- average_lifetime: double (nullable = true)
+ |-- mirai: boolean (nullable = true)
+ |-- zmap: boolean (nullable = true)
+ |-- masscan: boolean (nullable = true)
+ |-- country: string (nullable = true)
+ |-- traffic_types_scanned_str: string (nullable = true)
+ |-- ports_scanned_str: string (nullable = true)
+ |-- host_tags_per_censys: string (nullable = true)
+ |-- host_services_per_censys: string (nullable = true)
+ |-- Ports_Array: array (nullable = true)
+ |    |-- element: string (containsNull = false)
+ |-- Port17140: boolean (nullable = true)
+ |-- Port17132: boolean (nullable = true)
+ |-- Port17128: boolean (nullable = true)
+ |-- Port17130: boolean (nullable = true)
+ |-- Port17138: boolean (nullable = true)
+ |-- Port17136: boolean (nullable = true)
+ |-- Port17134: boolean (nullable = true)
+ |-- Port17142: boolean (nullable = true)
+ |-- Port80: boolean (nullable = true)
+ |-- Port8080: boolean (nullable = true)
+ |-- Port23: boolean (nullable = true)
+ |-- Port2323: boolean (nullable = true)
+ |-- Port81: boolean (nullable = true)
+ |-- Port5555: boolean (nullable = true)
+ |-- Port1023: boolean (nullable = true)
+ |-- Port52869: boolean (nullable = true)
+ |-- Port8443: boolean (nullable = true)
+ |-- Port49152: boolean (nullable = true)
+ |-- Port7574: boolean (nullable = true)
+ |-- Port37215: boolean (nullable = true)
+ |-- Port54594: boolean (nullable = true)
+ |-- Port34218: boolean (nullable = true)
+ |-- Port34226: boolean (nullable = true)
+ |-- Port34224: boolean (nullable = true)
+ |-- Port34228: boolean (nullable = true)
+ |-- Port34216: boolean (nullable = true)
+ |-- Port34220: boolean (nullable = true)
+ |-- Port33964: boolean (nullable = true)
+ |-- Port33960: boolean (nullable = true)
+ |-- Port33962: boolean (nullable = true)
+ |-- Port33970: boolean (nullable = true)
+ |-- Port33972: boolean (nullable = true)
+ |-- Port33968: boolean (nullable = true)
+ |-- Port50401: boolean (nullable = true)
+ |-- Port34222: boolean (nullable = true)
+ |-- Port34230: boolean (nullable = true)
+ |-- Port33966: boolean (nullable = true)
+ |-- Port33974: boolean (nullable = true)
+ |-- Port445: boolean (nullable = true)
+ |-- Port0: boolean (nullable = true)
+ |-- Port22: boolean (nullable = true)
+ |-- Port8291: boolean (nullable = true)
+ |-- Port8728: boolean (nullable = true)
+ |-- Port1433: boolean (nullable = true)
+ |-- Port8000: boolean (nullable = true)
+ |-- Port8081: boolean (nullable = true)
+ |-- Port5353: boolean (nullable = true)
+ |-- Port2004: boolean (nullable = true)
+ |-- Port11211: boolean (nullable = true)
+ |-- Port6881: boolean (nullable = true)
+ |-- Port8082: boolean (nullable = true)
+ |-- Port443: boolean (nullable = true)
+ |-- Port4000: boolean (nullable = true)
+ |-- Port5060: boolean (nullable = true)
+ |-- Port8083: boolean (nullable = true)
+ |-- Port8088: boolean (nullable = true)
+ |-- Port6379: boolean (nullable = true)
+ |-- Port30301: boolean (nullable = true)
+ |-- Port7001: boolean (nullable = true)
+ |-- Port9527: boolean (nullable = true)
+ |-- Port7002: boolean (nullable = true)
+ |-- Port9200: boolean (nullable = true)
+ |-- Port1027: boolean (nullable = true)
+ |-- Port3389: boolean (nullable = true)
+ |-- Port1900: boolean (nullable = true)
+ |-- Port21: boolean (nullable = true)
+ |-- Port5900: boolean (nullable = true)
+ |-- Port6380: boolean (nullable = true)
+ |-- Port88: boolean (nullable = true)
+ |-- Port389: boolean (nullable = true)
+ |-- Port8181: boolean (nullable = true)
+ |-- Port35: boolean (nullable = true)
+ |-- Port5000: boolean (nullable = true)
+ |-- Port5001: boolean (nullable = true)
+ |-- Port8008: boolean (nullable = true)
+ |-- Port4444: boolean (nullable = true)
+ |-- Port49153: boolean (nullable = true)
+ |-- Port137: boolean (nullable = true)
+ |-- Port7547: boolean (nullable = true)
+ |-- Port56880: boolean (nullable = true)
+ |-- Port5984: boolean (nullable = true)
+ |-- Port2222: boolean (nullable = true)
+ |-- Port8001: boolean (nullable = true)
+ |-- Port2480: boolean (nullable = true)
+ |-- Port8888: boolean (nullable = true)
+ |-- Port139: boolean (nullable = true)
+ |-- Port53: boolean (nullable = true)
+ |-- Port3544: boolean (nullable = true)
+ |-- Port873: boolean (nullable = true)
+ |-- Port50070: boolean (nullable = true)
+ |-- Port161: boolean (nullable = true)
+ |-- Port631: boolean (nullable = true)
+ |-- Port9000: boolean (nullable = true)
+ |-- Port4786: boolean (nullable = true)
+ |-- Port27017: boolean (nullable = true)
+ |-- Port111: boolean (nullable = true)
+ |-- Port1883: boolean (nullable = true)
+ |-- Port8090: boolean (nullable = true)
+ |-- Port554: boolean (nullable = true)
+ |-- Port3306: boolean (nullable = true)
+ |-- Port60001: boolean (nullable = true)
+ |-- Port82: boolean (nullable = true)
+ |-- Port83: boolean (nullable = true)
+ |-- Port3443: boolean (nullable = true)
+ |-- Port85: boolean (nullable = true)
+ |-- Port12866: boolean (nullable = true)
+ |-- Port3000: boolean (nullable = true)
+ |-- Port587: boolean (nullable = true)
+ |-- Port5901: boolean (nullable = true)
+ |-- Port143: boolean (nullable = true)
+ |-- Port50075: boolean (nullable = true)
+ |-- Port444: boolean (nullable = true)
+ |-- Port995: boolean (nullable = true)
+ |-- Port1521: boolean (nullable = true)
+ |-- Port465: boolean (nullable = true)
+ |-- Port993: boolean (nullable = true)
+ |-- Port110: boolean (nullable = true)
+ |-- Port10001: boolean (nullable = true)
+ |-- Port7777: boolean (nullable = true)
+ |-- Port548: boolean (nullable = true)
+
+root
+ |-- _c0: integer (nullable = true)
+ |-- id: integer (nullable = true)
+ |-- numports: integer (nullable = true)
+ |-- lifetime: double (nullable = true)
+ |-- Bytes: long (nullable = true)
+ |-- Packets: integer (nullable = true)
+ |-- average_packetsize: integer (nullable = true)
+ |-- MinUniqueDests: integer (nullable = true)
+ |-- MaxUniqueDests: integer (nullable = true)
+ |-- MinUniqueDest24s: integer (nullable = true)
+ |-- MaxUniqueDest24s: integer (nullable = true)
+ |-- average_lifetime: double (nullable = true)
+ |-- mirai: boolean (nullable = true)
+ |-- zmap: boolean (nullable = true)
+ |-- masscan: boolean (nullable = true)
+ |-- country: string (nullable = true)
+ |-- traffic_types_scanned_str: string (nullable = true)
+ |-- ports_scanned_str: string (nullable = true)
+ |-- host_tags_per_censys: string (nullable = true)
+ |-- host_services_per_censys: string (nullable = true)
+ |-- Ports_Array: array (nullable = true)
+ |    |-- element: string (containsNull = false)
+ |-- Port17140: boolean (nullable = true)
+ |-- Port17132: boolean (nullable = true)
+ |-- Port17128: boolean (nullable = true)
+ |-- Port17130: boolean (nullable = true)
+ |-- Port17138: boolean (nullable = true)
+ |-- Port17136: boolean (nullable = true)
+ |-- Port17134: boolean (nullable = true)
+ |-- Port17142: boolean (nullable = true)
+ |-- Port80: boolean (nullable = true)
+ |-- Port8080: boolean (nullable = true)
+ |-- Port23: boolean (nullable = true)
+ |-- Port2323: boolean (nullable = true)
+ |-- Port81: boolean (nullable = true)
+ |-- Port5555: boolean (nullable = true)
+ |-- Port1023: boolean (nullable = true)
+ |-- Port52869: boolean (nullable = true)
+ |-- Port8443: boolean (nullable = true)
+ |-- Port49152: boolean (nullable = true)
+ |-- Port7574: boolean (nullable = true)
+ |-- Port37215: boolean (nullable = true)
+ |-- Port54594: boolean (nullable = true)
+ |-- Port34218: boolean (nullable = true)
+ |-- Port34226: boolean (nullable = true)
+ |-- Port34224: boolean (nullable = true)
+ |-- Port34228: boolean (nullable = true)
+ |-- Port34216: boolean (nullable = true)
+ |-- Port34220: boolean (nullable = true)
+ |-- Port33964: boolean (nullable = true)
+ |-- Port33960: boolean (nullable = true)
+ |-- Port33962: boolean (nullable = true)
+ |-- Port33970: boolean (nullable = true)
+ |-- Port33972: boolean (nullable = true)
+ |-- Port33968: boolean (nullable = true)
+ |-- Port50401: boolean (nullable = true)
+ |-- Port34222: boolean (nullable = true)
+ |-- Port34230: boolean (nullable = true)
+ |-- Port33966: boolean (nullable = true)
+ |-- Port33974: boolean (nullable = true)
+ |-- Port445: boolean (nullable = true)
+ |-- Port0: boolean (nullable = true)
+ |-- Port22: boolean (nullable = true)
+ |-- Port8291: boolean (nullable = true)
+ |-- Port8728: boolean (nullable = true)
+ |-- Port1433: boolean (nullable = true)
+ |-- Port8000: boolean (nullable = true)
+ |-- Port8081: boolean (nullable = true)
+ |-- Port5353: boolean (nullable = true)
+ |-- Port2004: boolean (nullable = true)
+ |-- Port11211: boolean (nullable = true)
+ |-- Port6881: boolean (nullable = true)
+ |-- Port8082: boolean (nullable = true)
+ |-- Port443: boolean (nullable = true)
+ |-- Port4000: boolean (nullable = true)
+ |-- Port5060: boolean (nullable = true)
+ |-- Port8083: boolean (nullable = true)
+ |-- Port8088: boolean (nullable = true)
+ |-- Port6379: boolean (nullable = true)
+ |-- Port30301: boolean (nullable = true)
+ |-- Port7001: boolean (nullable = true)
+ |-- Port9527: boolean (nullable = true)
+ |-- Port7002: boolean (nullable = true)
+ |-- Port9200: boolean (nullable = true)
+ |-- Port1027: boolean (nullable = true)
+ |-- Port3389: boolean (nullable = true)
+ |-- Port1900: boolean (nullable = true)
+ |-- Port21: boolean (nullable = true)
+ |-- Port5900: boolean (nullable = true)
+ |-- Port6380: boolean (nullable = true)
+ |-- Port88: boolean (nullable = true)
+ |-- Port389: boolean (nullable = true)
+ |-- Port8181: boolean (nullable = true)
+ |-- Port35: boolean (nullable = true)
+ |-- Port5000: boolean (nullable = true)
+ |-- Port5001: boolean (nullable = true)
+ |-- Port8008: boolean (nullable = true)
+ |-- Port4444: boolean (nullable = true)
+ |-- Port49153: boolean (nullable = true)
+ |-- Port137: boolean (nullable = true)
+ |-- Port7547: boolean (nullable = true)
+ |-- Port56880: boolean (nullable = true)
+ |-- Port5984: boolean (nullable = true)
+ |-- Port2222: boolean (nullable = true)
+ |-- Port8001: boolean (nullable = true)
+ |-- Port2480: boolean (nullable = true)
+ |-- Port8888: boolean (nullable = true)
+ |-- Port139: boolean (nullable = true)
+ |-- Port53: boolean (nullable = true)
+ |-- Port3544: boolean (nullable = true)
+ |-- Port873: boolean (nullable = true)
+ |-- Port50070: boolean (nullable = true)
+ |-- Port161: boolean (nullable = true)
+ |-- Port631: boolean (nullable = true)
+ |-- Port9000: boolean (nullable = true)
+ |-- Port4786: boolean (nullable = true)
+ |-- Port27017: boolean (nullable = true)
+ |-- Port111: boolean (nullable = true)
+ |-- Port1883: boolean (nullable = true)
+ |-- Port8090: boolean (nullable = true)
+ |-- Port554: boolean (nullable = true)
+ |-- Port3306: boolean (nullable = true)
+ |-- Port60001: boolean (nullable = true)
+ |-- Port82: boolean (nullable = true)
+ |-- Port83: boolean (nullable = true)
+ |-- Port3443: boolean (nullable = true)
+ |-- Port85: boolean (nullable = true)
+ |-- Port12866: boolean (nullable = true)
+ |-- Port3000: boolean (nullable = true)
+ |-- Port587: boolean (nullable = true)
+ |-- Port5901: boolean (nullable = true)
+ |-- Port143: boolean (nullable = true)
+ |-- Port50075: boolean (nullable = true)
+ |-- Port444: boolean (nullable = true)
+ |-- Port995: boolean (nullable = true)
+ |-- Port1521: boolean (nullable = true)
+ |-- Port465: boolean (nullable = true)
+ |-- Port993: boolean (nullable = true)
+ |-- Port110: boolean (nullable = true)
+ |-- Port10001: boolean (nullable = true)
+ |-- Port7777: boolean (nullable = true)
+ |-- Port548: boolean (nullable = true)
+
+25/04/07 19:28:51 WARN package: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+Silhouette Score of the Clustering Result using 100 OHE Top Ports, without using PCA, is  0.4916221145717279
+Cluster  2 ; Mirai Ratio: 0.04516267123287671 ; Cluster Size:  9344
+Cluster  5 ; Mirai Ratio: 0.026910764305722288 ; Cluster Size:  9996
+Cluster  13 ; Mirai Ratio: 0.011359821680340526 ; Cluster Size:  74473
+Cluster  16 ; Mirai Ratio: 0.0015186769397963022 ; Cluster Size:  71773
+Cluster  25 ; Mirai Ratio: 0.017377567140600316 ; Cluster Size:  1266
+Cluster  29 ; Mirai Ratio: 0.9061168853296984 ; Cluster Size:  11738
+Cluster  113 ; Mirai Ratio: 0.027869940278699403 ; Cluster Size:  1507
+Cluster  122 ; Mirai Ratio: 0.35312747426761676 ; Cluster Size:  1263
+Cluster  125 ; Mirai Ratio: 0.1289198606271777 ; Cluster Size:  287
+Cluster  158 ; Mirai Ratio: 0.0014044943820224719 ; Cluster Size:  1424
+Cluster  170 ; Mirai Ratio: 0.025789813023855575 ; Cluster Size:  1551
+Cluster  171 ; Mirai Ratio: 0.1710794297352342 ; Cluster Size:  982
+25/04/07 19:32:57 WARN LAPACK: Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+25/04/07 19:32:57 WARN LAPACK: Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+Silhouette Score of the Clustering Result Using PCA-reduced dimension  30  on  120  OHE port features is  0.5571576101354752
+PCA_kmeans Cluster Index  148 : contains  1855  scanners that scan Port  17140
+PCA_kmeans Cluster Index  31 : contains  1223  scanners that scan Port  17140
+PCA_kmeans Cluster Index  85 : contains  3134  scanners that scan Port  17140
+PCA_kmeans Cluster Index  53 : contains  1337  scanners that scan Port  17140
+PCA_kmeans Cluster Index  133 : contains  1313  scanners that scan Port  17140
+PCA_kmeans Cluster Index  78 : contains  1424  scanners that scan Port  17140
+PCA_kmeans Cluster Index  155 : contains  2576  scanners that scan Port  17140
+PCA_kmeans Cluster Index  108 : contains  2577  scanners that scan Port  17140
+PCA_kmeans Cluster Index  34 : contains  1568  scanners that scan Port  17140
+PCA_kmeans Cluster Index  193 : contains  568  scanners that scan Port  17140
+PCA_kmeans Cluster Index  101 : contains  880  scanners that scan Port  17140
+PCA_kmeans Cluster Index  126 : contains  861  scanners that scan Port  17140
+PCA_kmeans Cluster Index  115 : contains  2011  scanners that scan Port  17140
+PCA_kmeans Cluster Index  81 : contains  293  scanners that scan Port  17140
+PCA_kmeans Cluster Index  183 : contains  1102  scanners that scan Port  17140
+PCA_kmeans Cluster Index  76 : contains  1177  scanners that scan Port  17140
+PCA_kmeans Cluster Index  26 : contains  2406  scanners that scan Port  17140
+PCA_kmeans Cluster Index  192 : contains  2995  scanners that scan Port  17140
+PCA_kmeans Cluster Index  44 : contains  4548  scanners that scan Port  17140
+PCA_kmeans Cluster Index  103 : contains  1033  scanners that scan Port  17140
+PCA_kmeans Cluster Index  122 : contains  2166  scanners that scan Port  17140
+PCA_kmeans Cluster Index  93 : contains  1743  scanners that scan Port  17140
+PCA_kmeans Cluster Index  157 : contains  34  scanners that scan Port  17140
+PCA_kmeans Cluster Index  111 : contains  1335  scanners that scan Port  17140
+PCA_kmeans Cluster Index  47 : contains  1229  scanners that scan Port  17140
+PCA_kmeans Cluster Index  177 : contains  7275  scanners that scan Port  17140
+PCA_kmeans Cluster Index  140 : contains  430  scanners that scan Port  17140
+PCA_kmeans Cluster Index  132 : contains  923  scanners that scan Port  17140
+PCA_kmeans Cluster Index  152 : contains  1568  scanners that scan Port  17140
+PCA_kmeans Cluster Index  146 : contains  1502  scanners that scan Port  17140
+PCA_kmeans Cluster Index  52 : contains  1771  scanners that scan Port  17140
+PCA_kmeans Cluster Index  182 : contains  877  scanners that scan Port  17140
+PCA_kmeans Cluster Index  13 : contains  36  scanners that scan Port  17140
+PCA_kmeans Cluster Index  6 : contains  2031  scanners that scan Port  17140
+PCA_kmeans Cluster Index  86 : contains  34  scanners that scan Port  17140
+PCA_kmeans Cluster Index  16 : contains  5  scanners that scan Port  17140
+PCA_kmeans Cluster Index  168 : contains  1095  scanners that scan Port  17140
+PCA_kmeans Cluster Index  178 : contains  617  scanners that scan Port  17140
+PCA_kmeans Cluster Index  164 : contains  1108  scanners that scan Port  17140
+PCA_kmeans Cluster Index  40 : contains  1196  scanners that scan Port  17140
+PCA_kmeans Cluster Index  20 : contains  654  scanners that scan Port  17140
+PCA_kmeans Cluster Index  169 : contains  3266  scanners that scan Port  17140
+PCA_kmeans Cluster Index  139 : contains  1115  scanners that scan Port  17140
+PCA_kmeans Cluster Index  94 : contains  2215  scanners that scan Port  17140
+PCA_kmeans Cluster Index  57 : contains  1003  scanners that scan Port  17140
+PCA_kmeans Cluster Index  120 : contains  820  scanners that scan Port  17140
+PCA_kmeans Cluster Index  54 : contains  489  scanners that scan Port  17140
+PCA_kmeans Cluster Index  96 : contains  897  scanners that scan Port  17140
+PCA_kmeans Cluster Index  48 : contains  2380  scanners that scan Port  17140
+PCA_kmeans Cluster Index  5 : contains  4397  scanners that scan Port  17140
+PCA_kmeans Cluster Index  19 : contains  960  scanners that scan Port  17140
+PCA_kmeans Cluster Index  92 : contains  679  scanners that scan Port  17140
+PCA_kmeans Cluster Index  64 : contains  114  scanners that scan Port  17140
+PCA_kmeans Cluster Index  154 : contains  2082  scanners that scan Port  17140
+PCA_kmeans Cluster Index  41 : contains  2502  scanners that scan Port  17140
+PCA_kmeans Cluster Index  43 : contains  544  scanners that scan Port  17140
+PCA_kmeans Cluster Index  15 : contains  806  scanners that scan Port  17140
+PCA_kmeans Cluster Index  112 : contains  1017  scanners that scan Port  17140
+PCA_kmeans Cluster Index  189 : contains  294  scanners that scan Port  17140
+PCA_kmeans Cluster Index  37 : contains  3169  scanners that scan Port  17140
+PCA_kmeans Cluster Index  88 : contains  6693  scanners that scan Port  17140
+PCA_kmeans Cluster Index  197 : contains  1871  scanners that scan Port  17140
+PCA_kmeans Cluster Index  107 : contains  837  scanners that scan Port  17140
+PCA_kmeans Cluster Index  9 : contains  2369  scanners that scan Port  17140
+PCA_kmeans Cluster Index  35 : contains  27  scanners that scan Port  17140
+PCA_kmeans Cluster Index  196 : contains  747  scanners that scan Port  17140
+PCA_kmeans Cluster Index  173 : contains  798  scanners that scan Port  17140
+PCA_kmeans Cluster Index  114 : contains  1649  scanners that scan Port  17140
+PCA_kmeans Cluster Index  55 : contains  778  scanners that scan Port  17140
+PCA_kmeans Cluster Index  59 : contains  2003  scanners that scan Port  17140
+PCA_kmeans Cluster Index  100 : contains  1090  scanners that scan Port  17140
+PCA_kmeans Cluster Index  161 : contains  999  scanners that scan Port  17140
+PCA_kmeans Cluster Index  39 : contains  2008  scanners that scan Port  17140
+PCA_kmeans Cluster Index  49 : contains  10229  scanners that scan Port  17140
+PCA_kmeans Cluster Index  162 : contains  2682  scanners that scan Port  17140
+PCA_kmeans Cluster Index  7 : contains  1204  scanners that scan Port  17140
+PCA_kmeans Cluster Index  130 : contains  867  scanners that scan Port  17140
+PCA_kmeans Cluster Index  136 : contains  2427  scanners that scan Port  17140
+PCA_kmeans Cluster Index  84 : contains  2665  scanners that scan Port  17140
+PCA_kmeans Cluster Index  87 : contains  1274  scanners that scan Port  17140
+PCA_kmeans Cluster Index  171 : contains  1284  scanners that scan Port  17140
+PCA_kmeans Cluster Index  194 : contains  1616  scanners that scan Port  17140
+PCA_kmeans Cluster Index  51 : contains  314  scanners that scan Port  17140
+PCA_kmeans Cluster Index  69 : contains  1343  scanners that scan Port  17140
+PCA_kmeans Cluster Index  166 : contains  958  scanners that scan Port  17140
+PCA_kmeans Cluster Index  129 : contains  2  scanners that scan Port  17140
+PCA_kmeans Cluster Index  63 : contains  67  scanners that scan Port  17140
+PCA_kmeans Cluster Index  77 : contains  1371  scanners that scan Port  17140
+PCA_kmeans Cluster Index  10 : contains  1972  scanners that scan Port  17140
+PCA_kmeans Cluster Index  38 : contains  1033  scanners that scan Port  17140
+PCA_kmeans Cluster Index  181 : contains  7760  scanners that scan Port  17140
+PCA_kmeans Cluster Index  82 : contains  39  scanners that scan Port  17140
+PCA_kmeans Cluster Index  167 : contains  29  scanners that scan Port  17140
+PCA_kmeans Cluster Index  80 : contains  2757  scanners that scan Port  17140
+PCA_kmeans Cluster Index  73 : contains  4626  scanners that scan Port  17140
+PCA_kmeans Cluster Index  160 : contains  1460  scanners that scan Port  17140
+PCA_kmeans Cluster Index  121 : contains  986  scanners that scan Port  17140
+PCA_kmeans Cluster Index  62 : contains  2510  scanners that scan Port  17140
+PCA_kmeans Cluster Index  125 : contains  2246  scanners that scan Port  17140
+PCA_kmeans Cluster Index  95 : contains  175  scanners that scan Port  17140
+PCA_kmeans Cluster Index  98 : contains  5777  scanners that scan Port  17140
+PCA_kmeans Cluster Index  60 : contains  1352  scanners that scan Port  17140
+PCA_kmeans Cluster Index  90 : contains  898  scanners that scan Port  17140
+PCA_kmeans Cluster Index  75 : contains  1003  scanners that scan Port  17140
+PCA_kmeans Cluster Index  151 : contains  3415  scanners that scan Port  17140
+PCA_kmeans Cluster Index  141 : contains  2683  scanners that scan Port  17140
+PCA_kmeans Cluster Index  145 : contains  658  scanners that scan Port  17140
+PCA_kmeans Cluster Index  109 : contains  1110  scanners that scan Port  17140
+PCA_kmeans Cluster Index  170 : contains  741  scanners that scan Port  17140
+PCA_kmeans Cluster Index  105 : contains  2009  scanners that scan Port  17140
+PCA_kmeans Cluster Index  188 : contains  80  scanners that scan Port  17140
+PCA_kmeans Cluster Index  11 : contains  65  scanners that scan Port  17140
+PCA_kmeans Cluster Index  33 : contains  9  scanners that scan Port  17140
+PCA_kmeans Cluster Index  83 : contains  2858  scanners that scan Port  17140
+PCA_kmeans Cluster Index  150 : contains  2780  scanners that scan Port  17140
+PCA_kmeans Cluster Index  110 : contains  824  scanners that scan Port  17140
+PCA_kmeans Cluster Index  68 : contains  3474  scanners that scan Port  17140
+PCA_kmeans Cluster Index  106 : contains  1214  scanners that scan Port  17140
+PCA_kmeans Cluster Index  71 : contains  2281  scanners that scan Port  17140
+PCA_kmeans Cluster Index  147 : contains  3249  scanners that scan Port  17140
+PCA_kmeans Cluster Index  116 : contains  749  scanners that scan Port  17140
+PCA_kmeans Cluster Index  123 : contains  691  scanners that scan Port  17140
+PCA_kmeans Cluster Index  158 : contains  724  scanners that scan Port  17140
+PCA_kmeans Cluster Index  199 : contains  611  scanners that scan Port  17140
+PCA_kmeans Cluster Index  135 : contains  1560  scanners that scan Port  17140
+PCA_kmeans Cluster Index  119 : contains  6800  scanners that scan Port  17140
+PCA_kmeans Cluster Index  42 : contains  968  scanners that scan Port  17140
+PCA_kmeans Cluster Index  79 : contains  6713  scanners that scan Port  17140
+PCA_kmeans Cluster Index  149 : contains  6681  scanners that scan Port  17140
+PCA_kmeans Cluster Index  131 : contains  758  scanners that scan Port  17140
+PCA_kmeans Cluster Index  118 : contains  2009  scanners that scan Port  17140
+PCA_kmeans Cluster Index  30 : contains  1265  scanners that scan Port  17140
+PCA_kmeans Cluster Index  99 : contains  3436  scanners that scan Port  17140
+PCA_kmeans Cluster Index  184 : contains  1154  scanners that scan Port  17140
+PCA_kmeans Cluster Index  66 : contains  541  scanners that scan Port  17140
+PCA_kmeans Cluster Index  67 : contains  1089  scanners that scan Port  17140
+PCA_kmeans Cluster Index  186 : contains  508  scanners that scan Port  17140
+PCA_kmeans Cluster Index  174 : contains  4523  scanners that scan Port  17140
+PCA_kmeans Cluster Index  172 : contains  751  scanners that scan Port  17140
+PCA_kmeans Cluster Index  144 : contains  919  scanners that scan Port  17140
+PCA_kmeans Cluster Index  0 : contains  1177  scanners that scan Port  17140
+PCA_kmeans Cluster Index  104 : contains  749  scanners that scan Port  17140
+PCA_kmeans Cluster Index  180 : contains  245  scanners that scan Port  17140
+PCA_kmeans Cluster Index  134 : contains  782  scanners that scan Port  17140
+PCA_kmeans Cluster Index  187 : contains  2002  scanners that scan Port  17140
+PCA_kmeans Cluster Index  36 : contains  7  scanners that scan Port  17140
+PCA_kmeans Cluster Index  142 : contains  1  scanners that scan Port  17140
+PCA_kmeans Cluster Index  198 : contains  4  scanners that scan Port  17140
+PCA_kmeans Cluster Index  65 : contains  1  scanners that scan Port  17140
+PCA_kmeans Cluster Index  72 : contains  7  scanners that scan Port  17140
+PCA_kmeans Cluster Index  3 : contains  1  scanners that scan Port  17140
+PCA_kmeans Cluster Index  4 : contains  3  scanners that scan Port  17140
+PCA_kmeans Cluster Index  45 : contains  4  scanners that scan Port  17140
+PCA_kmeans Cluster Index  163 : contains  4  scanners that scan Port  17140
+PCA_kmeans Cluster Index  29 : contains  2  scanners that scan Port  17140
+PCA_kmeans Cluster Index  191 : contains  1  scanners that scan Port  17140
+25/04/07 19:33:45 WARN CacheManager: Asked to cache already cached data.
+Cluster  1 ; Mirai Ratio: 0.00419576705526197 ; Cluster Size:  75314
+Cluster  11 ; Mirai Ratio: 0.002489748096074985 ; Cluster Size:  68280
+Cluster  16 ; Mirai Ratio: 0.0005898313082458417 ; Cluster Size:  8477
+Cluster  29 ; Mirai Ratio: 0.9460899404009392 ; Cluster Size:  11074
+Cluster  33 ; Mirai Ratio: 0.02416292716603383 ; Cluster Size:  14485
+Cluster  50 ; Mirai Ratio: 0.09232769830949285 ; Cluster Size:  1538
+Cluster  65 ; Mirai Ratio: 0.00028677946659019213 ; Cluster Size:  3487
+Cluster  72 ; Mirai Ratio: 0.12656758012076172 ; Cluster Size:  8612
+Cluster  157 ; Mirai Ratio: 0.018779342723004695 ; Cluster Size:  426
+Cluster  175 ; Mirai Ratio: 0.0005308794903556893 ; Cluster Size:  5651
+Cluster  191 ; Mirai Ratio: 0.01975051975051975 ; Cluster Size:  962
+Cluster  198 ; Mirai Ratio: 0.1589174184594032 ; Cluster Size:  2882
+25/04/07 19:37:13 INFO Worker: Asked to kill executor app-20250407192810-0000/2
+25/04/07 19:37:13 INFO Worker: Asked to kill executor app-20250407192810-0000/4
+25/04/07 19:37:13 INFO ExecutorRunner: Runner thread for executor app-20250407192810-0000/2 interrupted
+25/04/07 19:37:13 INFO ExecutorRunner: Runner thread for executor app-20250407192810-0000/4 interrupted
+25/04/07 19:37:13 INFO ExecutorRunner: Killing process!
+25/04/07 19:37:13 INFO ExecutorRunner: Killing process!
+25/04/07 19:37:13 INFO Worker: Asked to kill executor app-20250407192810-0000/0
+25/04/07 19:37:13 INFO ExecutorRunner: Runner thread for executor app-20250407192810-0000/0 interrupted
+25/04/07 19:37:13 INFO ExecutorRunner: Killing process!
+25/04/07 19:37:13 INFO Worker: Asked to kill executor app-20250407192810-0000/1
+25/04/07 19:37:13 INFO ExecutorRunner: Runner thread for executor app-20250407192810-0000/1 interrupted
+25/04/07 19:37:13 INFO Worker: Asked to kill executor app-20250407192810-0000/3
+25/04/07 19:37:13 INFO ExecutorRunner: Killing process!
+25/04/07 19:37:13 INFO ExecutorRunner: Runner thread for executor app-20250407192810-0000/3 interrupted
+25/04/07 19:37:13 INFO ExecutorRunner: Killing process!
+25/04/07 19:37:14 INFO Worker: Executor app-20250407192810-0000/4 finished with state KILLED exitStatus 143
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 4
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250407192810-0000, execId=4)
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Application app-20250407192810-0000 removed, cleanupLocalDirs = true
+25/04/07 19:37:14 INFO Worker: Cleaning up local directories for application app-20250407192810-0000
+25/04/07 19:37:14 INFO Worker: Executor app-20250407192810-0000/2 finished with state KILLED exitStatus 143
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 2
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250407192810-0000, execId=2)
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Application app-20250407192810-0000 removed, cleanupLocalDirs = true
+25/04/07 19:37:14 INFO Worker: Cleaning up local directories for application app-20250407192810-0000
+25/04/07 19:37:14 INFO Worker: Executor app-20250407192810-0000/3 finished with state KILLED exitStatus 143
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 3
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250407192810-0000, execId=3)
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Application app-20250407192810-0000 removed, cleanupLocalDirs = true
+25/04/07 19:37:14 INFO Worker: Cleaning up local directories for application app-20250407192810-0000
+25/04/07 19:37:14 INFO Worker: Executor app-20250407192810-0000/1 finished with state KILLED exitStatus 143
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 1
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250407192810-0000, execId=1)
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Application app-20250407192810-0000 removed, cleanupLocalDirs = true
+25/04/07 19:37:14 INFO Worker: Cleaning up local directories for application app-20250407192810-0000
+25/04/07 19:37:14 INFO Worker: Executor app-20250407192810-0000/0 finished with state KILLED exitStatus 143
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Clean up non-shuffle and non-RDD files associated with the finished executor 0
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Executor is not registered (appId=app-20250407192810-0000, execId=0)
+25/04/07 19:37:14 INFO Worker: Cleaning up local directories for application app-20250407192810-0000
+25/04/07 19:37:14 INFO ExternalShuffleBlockResolver: Application app-20250407192810-0000 removed, cleanupLocalDirs = true
+SPARK_MASTER_HOST=p-bc-5061
+SPARK_MASTER_PORT=7077
+
+real	9m36.289s
+user	6m23.485s
+sys	0m11.319s
+slurmstepd: error: *** STEP 36398790.0 ON p-bc-5061 CANCELLED AT 2025-04-07T22:25:12 DUE TO TIME LIMIT ***
+25/04/07 22:25:12 ERROR Worker: RECEIVED SIGNAL TERM
+25/04/07 22:25:12 ERROR Worker: RECEIVED SIGNAL TERM
+25/04/07 22:25:12 ERROR Worker: RECEIVED SIGNAL TERM
+25/04/07 22:25:12 ERROR Worker: RECEIVED SIGNAL TERM
+25/04/07 22:25:12 ERROR Worker: RECEIVED SIGNAL TERM
+25/04/07 22:25:12 INFO ShutdownHookManager: Shutdown hook called
+25/04/07 22:25:12 INFO ShutdownHookManager: Deleting directory /tmp/spark-2705ce54-0ddb-4681-bc8e-af0eddee5f31
+25/04/07 22:25:12 INFO ShutdownHookManager: Shutdown hook called
+25/04/07 22:25:12 INFO ShutdownHookManager: Shutdown hook called
+25/04/07 22:25:12 INFO ShutdownHookManager: Deleting directory /tmp/spark-8d103936-050b-44a0-aaa2-7daba9f16d0d
+25/04/07 22:25:12 INFO ShutdownHookManager: Deleting directory /tmp/spark-2993fb6e-7b55-43e5-b781-8cd30d35da9a
