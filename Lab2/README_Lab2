@@ -1,0 +1,8 @@
+Lab 2: MapReduce in Spark and Understand Error Messages
+The goals of this lab are for you to be able to
+- Read a text file (into an RDD of lines)
+- Parse an RDD of lines of input text into an RDD of list of tokens (using map)
+- Transform and Flatten the RDD of list of token into a key-value RDD (using map), so that we can count the number of occurances of token using reduce by key.
+- Use reduceByKey to aggregate the input key-value pairs into total count for each tokens.
+- Be able to use .take to show contents of an RDD.
+- Be able to understand the timing of an error message due to lazy evaluation.
