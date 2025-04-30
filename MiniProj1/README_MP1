@@ -1,0 +1,5 @@
+Learning Objectives
+- Be able to identify frequent 1 ports, 2 port sets and 3 port sets (based on a threshold) that are scanned by scanners in the Darknet dataset.
+- Be able to adapt the Aprior algorithm by incorporating suitable threshold and pruning strategies.
+- Be able to improve the performance of frequent port set mining by suitable reuse of RDD, together with appropriate persist and unpersist on the reused RDD.
+- After successful execution in the local mode, modify the code for cluster mode, and final frequent 1-ports, 2-port sets, and 3-port sets using the big Darknet dataset (Day_2020_profile.csv).
