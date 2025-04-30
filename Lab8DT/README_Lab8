@@ -1,0 +1,5 @@
+The goals of this lab are for you to be able to
+- Understand the function of the different steps/stages involved in Spark ML pipeline
+- Be able to construct a decision tree using Spark ML machine learning module
+- Be able to generate a visualization of Decision Trees
+- Be able to perform automated hyper-parameter tuning for Decision Trees
